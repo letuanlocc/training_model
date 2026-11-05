@@ -1,0 +1,570 @@
+# ===== BỔ SUNG ĐẦY ĐỦ CÁC CẤP BẬC CÒN THIẾU (VSTEP A2/C2, CEFR A1-C2, CAMBRIDGE CPE, APTIS A2-C2...) =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi có bằng [VSTEP A2|SKILL], muốn tìm việc [phục vụ|SKILL] [ca sáng|TIME] tại [Hải Châu|LOC].
+Mình đạt trình độ [VSTEP C2|SKILL], nhận dạy [tiếng Anh|SKILL] nâng cao ở [Sơn Trà|LOC].
+Em thi đạt [VSTEP bậc 3|SKILL], rảnh [chiều thứ 2|TIME] và [thứ 4|TIME] ở [Thanh Khê|LOC].
+Tôi đạt chứng chỉ [VSTEP bậc 5|SKILL], muốn làm [biên dịch|SKILL] tại nhà.
+Mình có bằng [Aptis A2|SKILL], rảnh [buổi tối|TIME] ở [Cẩm Lệ|LOC].
+Em đạt chứng chỉ [Aptis C1|SKILL] của British Council, muốn làm [trợ giảng|SKILL] [tiếng Anh|SKILL].
+Tôi có bằng [Cambridge CPE|SKILL] C2, rảnh [cuối tuần|TIME] tại [Ngũ Hành Sơn|LOC].
+Mình đạt trình độ [CEFR A2|SKILL], muốn làm [bán hàng|SKILL] [ca chiều|TIME].
+Em sở hữu chứng chỉ [CEFR C2|SKILL] [tiếng Anh|SKILL], có thể [phiên dịch|SKILL] cabin.
+Tôi có bằng [TOEFL iBT|SKILL] 60 điểm, rảnh [từ 18h đến 22h|TIME] ở [Liên Chiểu|LOC].
+Mình đạt [TOEFL iBT|SKILL] 110 điểm, nhận làm [gia sư|SKILL] luyện thi [tiếng Anh|SKILL].
+Em đạt [TOEFL ITP|SKILL] 450 điểm, rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME].
+Tôi có chứng chỉ [TOEIC 4 kỹ năng|SKILL] 600 điểm, muốn làm [chăm sóc khách hàng|SKILL] ở [Thanh Khê|LOC].
+Mình đạt [TOEIC|SKILL] 900 điểm cả 4 kỹ năng, rảnh [buổi sáng|TIME] ở [Hải Châu|LOC].
+
+# --- B. Không dấu hoàn toàn ---
+toi co bang [vstep a2|SKILL], ranh [buoi toi|TIME] o [hai chau|LOC]
+minh dat [vstep c2|SKILL], muon lam [phiendich|SKILL] o [son tra|LOC]
+em co chung chi [aptis a2|SKILL], ranh [ca sang|TIME] o [thanh khe|LOC]
+toi dat [aptis c1|SKILL], nhan [day kem|SKILL] [tieng anh|SKILL] [buoi toi|TIME]
+minh co bang [cambridge cpe|SKILL], o [lien chieu|LOC], ranh [cuoi tuan|TIME]
+em dat [cefr a2|SKILL] [tieng anh|SKILL], muon lam [phuc vu|SKILL] o [ngu hanh son|LOC]
+toi co chung chi [cefr c2|SKILL], ranh [tu 13h den 17h|TIME] o [cam le|LOC]
+minh co bang [toefl ibt|SKILL] 60, muon lam [cskh|SKILL] online
+em dat [toefl itp|SKILL] 500, ranh [sang|TIME] va [chieu|TIME]
+
+# --- C. Teencode / viết tắt ---
+e có bằng [vstep a2|SKILL] thui, rảnh [t7 cn|TIME] ở [h.châu|LOC]
+mk đạt [vstep c2|SKILL] [t.anh|SKILL], dạy [gia sư|SKILL] [ca tối|TIME] đc ko
+t có chứng chỉ [aptis c1|SKILL], rảnh [sau 6h|TIME] ở [T.Khê|LOC]
+e có bằng [cpe|SKILL] cambridge c2 nè, ở [S.Trà|LOC] nhé
+mik đạt [cefr a2|SKILL] [t.anh|SKILL], tìm job [bán hàng|SKILL] ở [L.Chiểu|LOC]
+t có [toeic 4 kỹ năng|SKILL] 600đ, rảnh [8h-12h|TIME] nha ad
+mk thi đc [toefl|SKILL] ibt 110đ, nhận dạy kèm [t.anh|SKILL] ở [ĐN|LOC]
+
+# --- E. Phủ định ---
+Tôi chưa đạt [VSTEP A2|SKILL|neg], mới chỉ biết [tiếng Anh|SKILL] cơ bản.
+Mình không có bằng [Aptis C1|SKILL|neg] hay [CEFR C2|SKILL|neg].
+Em chưa thi [Cambridge CPE|SKILL|neg], chỉ mới lấy bằng [FCE|SKILL].
+Tôi chưa đạt [TOEFL iBT|SKILL] 100 điểm [SKILL|neg], mới được 70 điểm.
+
+# --- F. Mức độ ---
+Tôi mới đậu [VSTEP A2|SKILL] vừa đủ điểm vớt.
+Mình đạt [CEFR C2|SKILL] ở mức xuất sắc tuyệt đối.
+Em có bằng [Aptis C1|SKILL] phản xạ [tiếng Anh|SKILL] cực kỳ trôi chảy.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi có bằng [VSTEP A2|SKILL] và biết dùng [Excel|SKILL], [Word|SKILL], rảnh [ca sáng|TIME] ở [Hải Châu|LOC], muốn làm [nhập liệu|SKILL] hoặc [thu ngân|SKILL].
+Mình thi đạt [Aptis C1|SKILL] và [TOEIC|SKILL] 900, rảnh [buổi tối|TIME] từ thứ 2 đến thứ 6 ở [Thanh Khê|LOC], nhận làm [trợ giảng|SKILL] hoặc [tư vấn|SKILL].
+Em sở hữu bằng [Cambridge CPE|SKILL] C2 và [VSTEP C2|SKILL], giỏi cả [tiếng Anh|SKILL] lẫn [tiếng Pháp|SKILL], rảnh [cuối tuần|TIME] ở [Sơn Trà|LOC], nhận làm [biên dịch|SKILL] hoặc [phiên dịch|SKILL].
+# ===== BỔ SUNG KỸ NĂNG MỀM, PHẨM CHẤT, TƯ DUY CÁ NHÂN VÀ THAO TÁC THỰC TẾ (NGÀNH DỊCH VỤ) =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi là người [nhanh nhẹn|SKILL], [hoạt bát|SKILL], muốn tìm việc [phục vụ|SKILL] [ca tối|TIME] ở [Hải Châu|LOC].
+Mình có khả năng [tính toán nhanh|SKILL], rảnh [ca sáng|TIME] khu vực [Thanh Khê|LOC].
+Em biết [giao tiếp cơ bản|SKILL] nhiều ngoại ngữ như [tiếng Anh|SKILL], [tiếng Hàn|SKILL] và [tiếng Trung|SKILL].
+Tôi thành thạo [sử dụng máy tính tiền|SKILL] và [máy POS|SKILL], rảnh [sau 18h|TIME] ở [Sơn Trà|LOC].
+Mình từng làm [quản lý|SKILL] nhà hàng 2 năm, muốn tìm vị trí [giám sát|SKILL] [ca chiều|TIME].
+Em có tinh thần [trách nhiệm cao|SKILL], [trung thực|SKILL], rảnh [cuối tuần|TIME] ở [Ngũ Hành Sơn|LOC].
+Tôi có khả năng [thương lượng|SKILL] và [giải quyết tình huống|SKILL] tốt với khách hàng.
+Mình là người [chịu khó|SKILL], [cần cù|SKILL], có thể làm [ca đêm|TIME] ở [Liên Chiểu|LOC].
+Em có kinh nghiệm [quản lý ca|SKILL] và [quản lý kho|SKILL] nước giải khát.
+Tôi có [ngoại hình sáng|SKILL], [thân thiện|SKILL], muốn làm [lễ tân|SKILL] [Hải Châu|LOC].
+Mình biết [sử dụng phần mềm KiotViet|SKILL] và [CukCuk|SKILL] để [bán hàng|SKILL].
+Em [thích ứng nhanh|SKILL], [hòa đồng|SKILL], có thể làm việc [áp lực cao|SKILL].
+Tôi có kỹ năng [làm việc nhóm|SKILL] và [sắp xếp công việc|SKILL] khoa học.
+Mình từng làm [cửa hàng trưởng|SKILL] chuỗi tiệm trà sữa, rảnh [cả ngày|TIME] [chủ nhật|TIME].
+Em biết [nhớ menu nhanh|SKILL] và [bưng bê khay|SKILL] chuyên nghiệp.
+
+# --- B. Không dấu hoàn toàn ---
+toi la nguoi [nhanh nhen|SKILL], [hoat bat|SKILL], o [hai chau|LOC]
+minh [tinh toan nhanh|SKILL], muon lam [thu ngan|SKILL] [ca sang|TIME] o [thanh khe|LOC]
+em biet [giao tiep tieng anh co ban|SKILL], ranh [buoi toi|TIME] o [son tra|LOC]
+toi biet [su dung may tinh tien|SKILL] va [phat do|SKILL] thanh thao
+minh tung lam [quan ly|SKILL] quan cafe, o [lien chieu|LOC], ranh [cuoi tuan|TIME]
+em [trung thuc|SKILL], [chiet trung|SKILL], [tam ly|SKILL] voi khach hang
+toi [co kinh nghiem quan ly|SKILL], muon tim viec o [cam le|LOC]
+minh [giao tiep tot|SKILL], [hoa dong|SKILL], ranh [sau 17h30|TIME]
+em [chiu duoc ap luc|SKILL], biet [su dung kiotviet|SKILL] [ban hang|SKILL]
+
+# --- C. Teencode / viết tắt ---
+t cực kỳ [nhanh nhẹn|SKILL] vs [hòa đồng|SKILL] nha, ở [h.châu|LOC]
+mk [tính tiền nhanh|SKILL] lắm, rảnh [t7 cn|TIME] làm [thu ngân|SKILL] ok
+e bít [t.anh giao tiếp sương sương|SKILL] thui, rảnh [ca tối|TIME] ở [T.Khê|LOC]
+mik rành dùng [máy pos|SKILL] vs [máy tính tiền|SKILL] nè, ở [S.Trà|LOC]
+e từng làm [leader|SKILL] ca, biết [quản lý nhân sự|SKILL] cơ bản
+t là người [thật thà|SKILL], [chịu khó|SKILL], tìm job [chạy bàn|SKILL] ở [nhs|LOC]
+mk [linh hoạt|SKILL], [nhanh trí|SKILL], xử lý [feedback khách|SKILL] tốt
+e bít dùng [pos|SKILL] [kiotviet|SKILL] [pos365|SKILL], rảnh [full ngày|TIME]
+
+# --- E. Phủ định ---
+Tôi chưa có kinh nghiệm làm [quản lý|SKILL|neg] nhưng học hỏi [nhanh|SKILL].
+Mình không [tính toán nhanh|SKILL|neg] lắm nên chỉ muốn làm [phục vụ|SKILL].
+Em không biết dùng [máy tính tiền|SKILL|neg], cần được hướng dẫn lại.
+Tôi không ngại công việc [áp lực|SKILL|neg], chỉ cần rảnh [buổi tối|TIME].
+Mình chưa từng làm [trưởng ca|SKILL|neg] bao giờ.
+
+# --- F. Mức độ ---
+Tôi rất [nhanh nhẹn|SKILL] và [tinh tế|SKILL] trong việc quan sát khách.
+Mình [tính nhẩm|SKILL] cực kỳ nhanh và chính xác.
+Em biết [giao tiếp tiếng Anh|SKILL] ở mức sơ cấp đủ để bán hàng.
+Tôi có kinh nghiệm [quản lý|SKILL] dày dặn hơn 3 năm.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi là người [nhanh nhẹn|SKILL], [thật thà|SKILL], [tính toán nhanh|SKILL], biết [dùng máy tính tiền|SKILL] và phần mềm [KiotViet|SKILL], rảnh [ca tối|TIME] ở [Hải Châu|LOC], muốn làm [thu ngân|SKILL] hoặc [bán hàng|SKILL].
+Mình từng làm [quản lý ca|SKILL], biết [tiếng Anh giao tiếp cơ bản|SKILL] và [tiếng Hàn cơ bản|SKILL], [xử lý tình huống tốt|SKILL], rảnh [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Em [hoạt bát|SKILL], [thân thiện|SKILL], [ngoại hình khá|SKILL], biết [bán hàng|SKILL] và [thu ngân|SKILL], rảnh [từ 8h đến 12h|TIME] ở [Thanh Khê|LOC].
+minh [tinh toan nhanh|SKILL], tung lam [quan ly|SKILL] quan nhau, biet [su dung may pos|SKILL], ranh [sau 18h|TIME] o [lien chieu|LOC], tim viec [giam sat|SKILL] hoac [truong ca|SKILL].
+# ===== BỔ SUNG KINH NGHIỆM CỬA HÀNG TIỆN LỢI & THƯƠNG HIỆU TẠI TRUNG TÂM THƯƠNG MẠI =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi từng làm [thu ngân|SKILL] ở [WinMart+|SKILL] 6 tháng, rảnh [ca tối|TIME] ở [Hải Châu|LOC].
+Mình có kinh nghiệm làm [bán hàng|SKILL] tại [Circle K|SKILL], rảnh [buổi sáng|TIME] ở [Thanh Khê|LOC].
+Em từng làm [nhân viên bán hàng|SKILL] ở [7-Eleven|SKILL], rảnh [sau 18h|TIME] ở [Sơn Trà|LOC].
+Tôi biết [xắp xếp hàng hóa|SKILL] và [kiểm kê kho|SKILL] theo chuẩn [GS25|SKILL].
+Mình có kinh nghiệm làm [thu ngân|SKILL] và [chăm sóc khách hàng|SKILL] ở [FamilyMart|SKILL].
+Em từng làm [phục vụ|SKILL] tại chuỗi nhà hàng [Golden Gate|SKILL] ở [Vincom|LOC].
+Tôi làm [phụ bếp|SKILL] cho chuỗi [Kichi-Kichi|SKILL] tại [Lotte Mart|LOC], rảnh [cuối tuần|TIME].
+Mình từng làm [barista|SKILL] cho [Highlands Coffee|SKILL] ở trung tâm thương mại [Sơn Trà|LOC].
+Em có 1 năm kinh nghiệm [phục vụ bàn|SKILL] ở [Manwah|SKILL], rảnh [ca tối|TIME] ở [Hải Châu|LOC].
+Tôi biết [pha chế|SKILL] trà sữa [Phúc Long|SKILL], rảnh [từ 13h đến 17h|TIME] ở [Thanh Khê|LOC].
+Mình từng làm [nhân viên tư vấn|SKILL] cho cửa hàng [UNIQLO|SKILL] tại [Vincom|LOC].
+Em có kinh nghiệm [bán hàng quần áo|SKILL] thương hiệu [HM|SKILL] ở [Cẩm Lệ|LOC].
+Tôi từng làm [phục vụ|SKILL] quán ăn [Jollibee|SKILL] tại [Go Dà Nẵng|LOC], rảnh [sáng thứ 7|TIME].
+Mình biết [giao tiếp tiếng Anh|SKILL] và làm [thu ngân|SKILL] ở [KFC|SKILL] [Liên Chiểu|LOC].
+Em có kinh nghiệm [đứng quầy|SKILL] tại [Lotteria|SKILL] và [sử dụng máy POS|SKILL].
+Tôi từng làm [chạy bàn|SKILL] cho gian hàng ẩm thực Nhật [Gogi House|SKILL] ở [Sơn Trà|LOC].
+Mình có kinh nghiệm kiểm [hạn sử dụng|SKILL] và [đóng gói hàng|SKILL] ở cửa hàng tiện lợi.
+Em từng làm [tiếp thị|SKILL] cho các nhãn hàng tại [Indochina|LOC], rảnh [chủ nhật|TIME].
+
+# --- B. Không dấu hoàn toàn ---
+toi tung lam [thu ngan|SKILL] o [winmart|SKILL] 6 thang, ranh [ca toi|TIME] o [hai chau|LOC]
+minh co kinh nghiem [ban hang|SKILL] o [circle k|SKILL], ranh [buoi sang|TIME] o [thanh khe|LOC]
+em tung lam [phuc vu|SKILL] o [kichi kichi|SKILL] [vincom|LOC], ranh [cuoi tuan|TIME]
+toi biet [pha che|SKILL] [highlands coffee|SKILL], ranh [tu 18h den 22h|TIME] o [son tra|LOC]
+minh lam [thu ngan|SKILL] cho [jollibee|SKILL] o [lotte mart|LOC], o [ngu hanh son|LOC]
+em tung lam [ban hang|SKILL] gian hang [uniqlo|SKILL] o [hai chau|LOC], ranh [ca chieu|TIME]
+toi biet [su dung may pos|SKILL] va làm [7-eleven|SKILL], ranh [ngay thuong|TIME]
+minh co kinh nghiem [phuc vu|SKILL] nha hang [gogi house|SKILL] o [lien chieu|LOC]
+
+# --- C. Teencode / viết tắt ---
+e từng làm [thu ngân|SKILL] [winmart+|SKILL] nè, rảnh [t7 cn|TIME] ở [h.châu|LOC]
+mk có exp làm [chạy bàn|SKILL] ở [kichi|SKILL] [vincom|LOC], rảnh [ca tối|TIME] nha
+t từng làm [circle k|SKILL] rồi, biết [tính tiền máy pos|SKILL], rảnh [sau 6h|TIME]
+e làm [phục vụ|SKILL] [gogi|SKILL] ở [Lotte|LOC] đc 1 năm, ở [nhs|LOC] nhé
+mik bít làm [barista|SKILL] [phúc long|SKILL] vs [highlands|SKILL], rảnh [full ngày|TIME] [cn|TIME]
+e từng đứng quầy [kfc|SKILL] [L.Chiểu|LOC], rảnh [8h-12h|TIME] ạ
+t làm [bán hàng|SKILL] quần áo [uniqlo|SKILL] [Indochina|LOC], ở [T.Khê|LOC]
+
+# --- E. Phủ định ---
+Tôi chưa từng làm ở [cửa hàng tiện lợi|SKILL|neg] nhưng học [kiểm hàng|SKILL] rất nhanh.
+Mình không làm được [ca đêm|TIME|neg] ở [Circle K|SKILL] hay [WinMart|SKILL].
+Em chưa có kinh nghiệm làm [quán ăn TTTM|SKILL|neg], rảnh [buổi sáng|TIME] ở [Hải Châu|LOC].
+Tôi không muốn làm [phục vụ|SKILL|neg] ở chuỗi [KFC|SKILL] hay [Lotteria|SKILL].
+
+# --- F. Mức độ ---
+Tôi rất thành thạo quy trình [thu ngân|SKILL] và [nhập hàng|SKILL] tại [Circle K|SKILL].
+Mình có kinh nghiệm [quản lý ca|SKILL] 2 năm ở cửa hàng [WinMart+|SKILL].
+Em nắm rất rõ menu và phong cách phục vụ của chuỗi [Golden Gate|SKILL].
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi từng làm [thu ngân|SKILL] ở [WinMart+|SKILL] 6 tháng và [phục vụ|SKILL] tại [Kichi-Kichi|SKILL] [Vincom|LOC], rảnh [ca tối|TIME] từ thứ 2 đến thứ 6, ở [Hải Châu|LOC], muốn làm [bán hàng|SKILL] hoặc [thu ngân|SKILL].
+Mình có kinh nghiệm làm [barista|SKILL] cho [Highlands Coffee|SKILL] và [bán hàng|SKILL] ở [Circle K|SKILL], biết dùng [máy POS|SKILL], rảnh [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Em từng làm [cửa hàng trưởng|SKILL] chuỗi [GS25|SKILL], biết [quản lý kho|SKILL] và [quản lý nhân viên|SKILL], muốn tìm vị trí [giám sát|SKILL] cửa hàng tại [Thanh Khê|LOC].
+minh tung lam [phuc vu|SKILL] o [gogi house|SKILL] va [lotteria|SKILL] [lotte mart|LOC], biet [tieng anh giao tiep|SKILL], ranh [sau 18h|TIME] o [ngu hanh son|LOC].
+e từng làm [bán hàng|SKILL] ở [UNIQLO|SKILL] [Vincom|LOC] và [thu ngân|SKILL] [7-Eleven|SKILL], rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME] ở [Liên Chiểu|LOC].
+# ===== BỔ SUNG KINH NGHIỆM TẠI CÁC TRUNG TÂM THƯƠNG MẠI LỚN (AEON MALL, TAKASHIMAYA, CRESCENT MALL...) =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi từng làm [thu ngân|SKILL] tại siêu thị [AEON Mall|LOC], rảnh [ca tối|TIME] ở [Hải Châu|LOC].
+Mình có kinh nghiệm làm [bán hàng|SKILL] cho gian hàng thời trang ở [Takashimaya|LOC], rảnh [cuối tuần|TIME].
+Em từng làm [phục vụ|SKILL] tại chuỗi nhà hàng ở [Crescent Mall|LOC], rảnh [từ 18h đến 22h|TIME].
+Tôi biết [vận hành máy POS|SKILL] và [dịch vụ khách hàng|SKILL] chuẩn phong cách [AEON|SKILL].
+Mình từng làm [nhân viên tư vấn|SKILL] tại [SC VivoCity|LOC], rảnh [ca sáng|TIME] ở [Thanh Khê|LOC].
+Em có kinh nghiệm [đứng quầy|SKILL] ẩm thực tại [Vincom Mega Mall|LOC], rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME].
+Tôi từng làm [giám sát gian hàng|SKILL] tại [Parkson|LOC], có kỹ năng [quản lý nhân sự|SKILL] tốt.
+Mình có kinh nghiệm làm [hướng dẫn viên khu vui chơi|SKILL] cho trẻ em tại [AEON Mall|LOC].
+Em từng làm [bán hàng mỹ phẩm|SKILL] thương hiệu cao cấp ở [Takashimaya|LOC], rảnh [ca chiều|TIME].
+Tôi biết [kiểm kê hàng hóa|SKILL] và [sắp xếp quầy kệ|SKILL] tại khu tự chọn siêu thị [AEON|LOC].
+Mình từng làm [nhân viên bảo vệ|SKILL] và [giữ xe|SKILL] cho TTTM [AEON Mall|LOC].
+Em có kinh nghiệm [bán vé|SKILL] rạp chiếu phim [CGV|SKILL] tại TTTM, rảnh [buổi tối|TIME].
+Tôi từng làm [barista|SKILL] tại quầy cà phê tự phục vụ của [AEON Hall|LOC], rảnh [sau 17h30|TIME].
+Mình có kinh nghiệm làm [kiểm soát chất lượng|SKILL] gian hàng thực phẩm tươi sống tại [AEON|LOC].
+
+# --- B. Không dấu hoàn toàn ---
+toi tung lam [thu ngan|SKILL] o [aeon mall|LOC], ranh [ca toi|TIME] o [hai chau|LOC]
+minh co kinh nghiem [ban hang|SKILL] o [takashimaya|LOC], ranh [cuoi tuan|TIME]
+em tung lam [phuc vu|SKILL] nha hang o [crescent mall|LOC], ranh [tu 18h den 22h|TIME]
+toi biet [su dung may pos|SKILL] va lam [huong dan vien|SKILL] o [aeon|LOC], ranh [ca sang|TIME]
+minh lam [thu ngan|SKILL] rap phim [cgv|SKILL] o [vincom mega mall|LOC], o [son tra|LOC]
+em tung [ban hang|SKILL] thoi trang o [sc vivocity|LOC], ranh [sau 18h|TIME]
+toi co kinh nghiem [kiem ke kho|SKILL] gian hang [parkson|LOC], ranh [ngay thuong|TIME]
+
+# --- C. Teencode / viết tắt ---
+e từng làm [thu ngân|SKILL] [aeon mall|LOC] nè, rảnh [t7 cn|TIME] ở [h.châu|LOC]
+mk có exp làm [bán hàng|SKILL] gian hàng [takashimaya|LOC], rảnh [ca tối|TIME] nha
+t từng đứng quầy [aeon|LOC] rồi, biết [tính tiền máy pos|SKILL], rảnh [sau 6h|TIME]
+e làm [phục vụ|SKILL] ở [crescent mall|LOC] đc 1 năm, ở [nhs|LOC] nhé
+mik bít làm [bán vé|SKILL] [cgv|SKILL] [vincom|LOC], rảnh [full ngày|TIME] [cn|TIME]
+e từng làm [cskh|SKILL] ở [sc vivocity|LOC], rảnh [8h-12h|TIME] ạ
+
+# --- E. Phủ định ---
+Tôi chưa từng làm ở [AEON Mall|LOC|neg] nhưng học quy trình [phục vụ|SKILL] rất nhanh.
+Mình không làm được [ca đêm|TIME|neg] tại các gian hàng trong [TTTM|LOC].
+Em chưa có kinh nghiệm làm ở [Takashimaya|LOC|neg], rảnh [buổi sáng|TIME] ở [Hải Châu|LOC].
+Tôi không muốn làm [bán hàng|SKILL|neg] ở [Parkson|LOC] hay [Crescent Mall|LOC].
+
+# --- F. Mức độ ---
+Tôi rất thành thạo quy trình [bán hàng|SKILL] và [chăm sóc khách hàng|SKILL] chuẩn Nhật tại [AEON Mall|LOC].
+Mình có kinh nghiệm [trưởng ca|SKILL] 2 năm tại khu ẩm thực [AEON Hall|LOC].
+Em nắm rất rõ tác phong phục vụ chuyên nghiệp tại các gian hàng [Takashimaya|LOC].
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi từng làm [thu ngân|SKILL] siêu thị [AEON Mall|LOC] 8 tháng và [bán hàng|SKILL] ở [Takashimaya|LOC], rảnh [ca tối|TIME] từ thứ 2 đến thứ 6, ở [Hải Châu|LOC], muốn làm [thu ngân|SKILL] hoặc [tư vấn|SKILL].
+Mình có kinh nghiệm làm [quản lý gian hàng|SKILL] tại [Crescent Mall|LOC] và [barista|SKILL] ở [Highlands|SKILL] [Vincom|LOC], biết dùng [máy POS|SKILL], rảnh [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Em từng làm [thu ngân|SKILL] rạp phim [CGV|SKILL] tại [Vincom Mega Mall|LOC] và [bán hàng|SKILL] thời trang ở [SC VivoCity|LOC], rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME] ở [Thanh Khê|LOC].
+minh tung lam [huong dan vien|SKILL] khu vui choi [aeon mall|LOC] va [phuc vu|SKILL] o [crescent mall|LOC], biet [tieng anh giao tiep|SKILL], ranh [sau 18h|TIME] o [ngu hanh son|LOC].
+# ===== BỔ SUNG MÔ HÌNH DIỆN THOẠI, CỬA HÀNG CẦM ĐỒ VÀ SINH VIÊN LUẬT / PHÁP LÝ =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi từng làm [bán hàng|SKILL] ở cửa hàng [Thế Giới Di Động|SKILL] 1 năm, rảnh [ca tối|TIME] ở [Hải Châu|LOC].
+Mình có kinh nghiệm [ép kính|SKILL] và [thay pin điện thoại|SKILL], rảnh [buổi sáng|TIME] ở [Thanh Khê|LOC].
+Em biết [dán cường lực|SKILL] và [thu mua điện thoại cũ|SKILL], rảnh [sau 18h|TIME] ở [Sơn Trà|LOC].
+Tôi từng làm [thu ngân|SKILL] cho hệ thống [FPT Shop|SKILL], rảnh [chiều thứ 2|TIME] và [thứ 4|TIME].
+Mình có kinh nghiệm làm [bán hàng|SKILL] tại shop điện thoại [Viettel Store|SKILL] ở [Cẩm Lệ|LOC].
+Em từng làm [nhân viên định giá|SKILL] tài sản tại [cầm đồ F88|SKILL], rảnh [cuối tuần|TIME].
+Tôi có 2 năm kinh nghiệm làm [thu ngân|SKILL] và [quản lý sổ sách|SKILL] tiệm [cầm đồ|SKILL] ở [Liên Chiểu|LOC].
+Mình biết [định giá xe máy|SKILL] và [kiểm tra vàng|SKILL] cho tiệm cầm đồ tại [Ngũ Hành Sơn|LOC].
+Em là sinh viên luật năm 3, am hiểu [luật lao động|SKILL], muốn làm [tư vấn pháp lý|SKILL] [buổi tối|TIME].
+Tôi học ngành luật, có khả năng [soạn thảo hợp đồng|SKILL] và [rà soát văn bản|SKILL] cơ bản.
+Mình là sinh viên luật chuyên ngành luật kinh tế, rảnh [ca sáng|TIME] ở [Hải Châu|LOC].
+Em am hiểu [thủ tục hành chính|SKILL] và [luật dân sự|SKILL], muốn làm [trợ lý pháp lý|SKILL] tại [Sơn Trà|LOC].
+Tôi có kiến thức về [luật doanh nghiệp|SKILL], muốn tìm việc [thực tập pháp lý|SKILL] ở [Thanh Khê|LOC].
+Mình biết [tư vấn pháp luật|SKILL] qua điện thoại, rảnh [từ 13h đến 17h|TIME] từ thứ 2 đến thứ 6.
+Em biết [tư vấn trả góp|SKILL] qua các công ty tài chính như [Home Credit|SKILL] và [FE Credit|SKILL].
+
+# --- B. Không dấu hoàn toàn ---
+toi tung lam [ban hang|SKILL] o shop [dienthoaididong|SKILL], ranh [ca toi|TIME] o [hai chau|LOC]
+minh co kinh nghiem [dinh gia tai san|SKILL] o tiem [cam do|SKILL], ranh [buoi sang|TIME] o [thanh khe|LOC]
+em la sinh vien [khoa luat|SKILL], am hieu [luat lao dong|SKILL], ranh [cuoi tuan|TIME] o [son tra|LOC]
+toi biet [thay man hinh dien thoai|SKILL] va [sua chua phan cung|SKILL], ranh [tu 18h den 22h|TIME]
+minh tung lam [thu ngan|SKILL] o tiem [cam do f88|SKILL], o [lien chieu|LOC], ranh [ca chieu|TIME]
+em biet [soan thao hop dong|SKILL] va [tu van phap ly|SKILL] co ban, ranh [sang|TIME] va [chieu|TIME]
+toi co kinh nghiem [thu mua iphone|SKILL] va [dinh gia lap top|SKILL] o [cam le|LOC]
+
+# --- C. Teencode / viết tắt ---
+e từng làm [sales|SKILL] ở [tgdd|SKILL] vs [fpt shop|SKILL], rảnh [t7 cn|TIME] ở [h.châu|LOC]
+mk bít [ép kính|SKILL] vs [thay màn|SKILL] đt, rảnh [ca tối|TIME] làm ở [T.Khê|LOC]
+t từng làm [thẩm định tài sản|SKILL] tiệm [cầm đồ|SKILL] ở [S.Trà|LOC], rảnh [sau 6h|TIME]
+e là sv [luật|SKILL] nè, bít [soạn hợp đồng|SKILL] vs [tư vấn pháp luật|SKILL] cơ bản
+mik bít làm [hồ sơ trả góp|SKILL] [fe credit|SKILL] [home credit|SKILL], rảnh [full ngày|TIME] [cn|TIME]
+e bít [dán màn hình|SKILL] vs [thu máy cũ|SKILL] ở shop đt [L.Chiểu|LOC], ở [nhs|LOC] nhé
+
+# --- E. Phủ định ---
+Tôi chưa từng làm ở tiệm [cầm đồ|SKILL|neg] nhưng tính toán [sổ sách|SKILL] rất nhanh.
+Mình không biết [sửa chữa điện thoại|SKILL|neg], chỉ làm được [bán hàng|SKILL] di động.
+Em không học ngành [luật|SKILL|neg] nhưng am hiểu các [thủ tục hành chính|SKILL] cơ bản.
+Tôi không muốn làm [tư vấn tài chính|SKILL|neg] hay [thu hồi nợ|SKILL|neg].
+
+# --- F. Mức độ ---
+Tôi rất thành thạo việc [định giá điện thoại|SKILL] và [laptop cũ|SKILL] cho khách cầm đồ.
+Mình nắm rất vững kiến thức [luật thương mại|SKILL] và kỹ năng [soạn thảo văn bản|SKILL].
+Em có khả năng [tư vấn trả góp|SKILL] cực kỳ trôi chảy và thuyết phục.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi là sinh viên luật năm cuối, am hiểu [luật lao động|SKILL] và [luật doanh nghiệp|SKILL], biết [soạn thảo hợp đồng|SKILL], rảnh [ca sáng|TIME] từ thứ 2 đến thứ 6 ở [Hải Châu|LOC], muốn làm [thực tập pháp lý|SKILL] hoặc [trợ lý|SKILL].
+Mình từng làm [bán hàng|SKILL] tại [Thế Giới Di Động|SKILL] 1 năm, biết [dán cường lực|SKILL], [tư vấn trả góp|SKILL] qua [Home Credit|SKILL], rảnh [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Em có kinh nghiệm làm [thu ngân|SKILL] và [định giá tài sản|SKILL] tại cửa hàng [cầm đồ F88|SKILL], biết [quản lý sổ sách|SKILL], rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME] ở [Thanh Khê|LOC].
+minh tung lam [tho sua dien thoai|SKILL], biet [ep kinh|SKILL], [thay pin|SKILL] va [chay phan mem|SKILL], ranh [sau 18h|TIME] o [ngu hanh son|LOC], tim viec làm thêm ở shop di động.
+# ===== BỔ SUNG KINH NGHIỆM CỬA HÀNG ĐIỆN THOẠI XÁCH TAY & BÁN LẺ NỔI TIẾNG =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi từng làm [bán hàng|SKILL] ở [Di Động Việt|SKILL] 1 năm, rảnh [ca tối|TIME] ở [Hải Châu|LOC].
+Mình có kinh nghiệm [thu mua máy xách tay|SKILL] tại [Clickbuy|SKILL], rảnh [buổi sáng|TIME] ở [Thanh Khê|LOC].
+Em từng làm [kỹ thuật viên|SKILL] [thay pin|SKILL] cho [Viettablet|SKILL], rảnh [sau 18h|TIME] ở [Sơn Trà|LOC].
+Tôi biết [kiểm tra iPhone xách tay|SKILL] và [test máy cũ|SKILL] theo quy trình của [HungMobile|SKILL].
+Mình có kinh nghiệm làm [thu ngân|SKILL] và [tư vấn trả góp|SKILL] tại [XTmobile|SKILL].
+Em từng làm [bán hàng|SKILL] máy xách tay Mỹ tại [Minh Tuấn Mobile|SKILL] ở [Cẩm Lệ|LOC].
+Tôi làm [tư vấn sản phẩm|SKILL] ở [Di Động Thông Minh|SKILL], rảnh [cuối tuần|TIME] tại [Ngũ Hành Sơn|LOC].
+Mình từng làm [bán hàng|SKILL] và [dán cường lực|SKILL] tại [Hoàng Hà Mobile|SKILL] ở [Hải Châu|LOC].
+Em có kinh nghiệm [định giá iPhone xách tay|SKILL] và [bán hàng online|SKILL] cho [HnamMobile|SKILL].
+Tôi từng làm [bán máy Hàn xách tay|SKILL] và [up ROM Android|SKILL] cho shop [CellphoneS|SKILL].
+Mình biết [bán hàng|SKILL] các dòng [iPhone lock|SKILL] và [iPhone quốc tế|SKILL] xách tay.
+Em có 2 năm kinh nghiệm [tư vấn khách hàng|SKILL] mua hàng xách tay Nhật tại [Sơn Trà|LOC].
+Tôi từng làm [kỹ thuật phần mềm|SKILL] [chạy lại phần mềm|SKILL] cho khách ở shop xách tay [Thanh Khê|LOC].
+Mình biết [kiểm tra pin|SKILL], [test màn hình|SKILL] và [check IMEI|SKILL] máy xách tay cũ.
+
+# --- B. Không dấu hoàn toàn ---
+toi tung lam [ban hang|SKILL] o shop dienthoai [didongviet|SKILL], ranh [ca toi|TIME] o [hai chau|LOC]
+minh co kinh nghiem [test iphone xach tay|SKILL] o [clickbuy|SKILL], ranh [buoi sang|TIME] o [thanh khe|LOC]
+em tung lam [ky thuat|SKILL] o [hungmobile|SKILL], ranh [cuoi tuan|TIME] o [son tra|LOC]
+toi biet [thu mua may cu|SKILL] o shop [xtmobile|SKILL], ranh [tu 18h den 22h|TIME]
+minh lam [thu ngan|SKILL] o [hoang ha mobile|SKILL], o [lien chieu|LOC], ranh [ca chieu|TIME]
+em tung [ban hang|SKILL] [iphone xach tay|SKILL] o [minh tuan mobile|SKILL], ranh [sang|TIME] va [chieu|TIME]
+
+# --- C. Teencode / viết tắt ---
+e từng làm [sales|SKILL] ở [didongviet|SKILL] nè, rảnh [t7 cn|TIME] ở [h.châu|LOC]
+mk có exp [test máy|SKILL] vs [bán hàng|SKILL] ở [clickbuy|SKILL], rảnh [ca tối|TIME] nha
+t từng làm [kỹ thuật|SKILL] bên [hoàng hà|SKILL], biết [fix lỗi máy xách tay|SKILL], rảnh [sau 6h|TIME]
+e làm [bán hàng|SKILL] ở [xtmobile|SKILL] đc 1 năm, ở [nhs|LOC] nhé
+mik bít [bán iphone lock|SKILL] vs [unlock iphone|SKILL] ở shop xách tay [L.Chiểu|LOC]
+e từng làm [cskh|SKILL] bên [viettablet|SKILL], rảnh [8h-12h|TIME] ạ
+
+# --- E. Phủ định ---
+Tôi chưa từng làm ở các shop [bán máy xách tay|SKILL|neg] nhưng biết [bán hàng|SKILL] giỏi.
+Mình không biết [up ROM|SKILL|neg] hay [fix lỗi phần mềm|SKILL|neg] máy xách tay Hàn.
+Em chưa có kinh nghiệm [dán màn hình|SKILL|neg] hay [thay pin|SKILL] ở [Hoàng Hà|SKILL].
+Tôi không muốn làm ở các cửa hàng [bán máy lock|SKILL|neg].
+
+# --- F. Mức độ ---
+Tôi rất thành thạo việc [kiểm tra máy xách tay|SKILL] và [phân biệt hàng zin|SKILL].
+Mình có kinh nghiệm [quản lý cửa hàng|SKILL] 2 năm ở chi nhánh [Di Động Việt|SKILL].
+Em nắm rất kĩ cách [tư vấn|SKILL] và [phân biệt iPhone xách tay|SKILL] Mỹ, Nhật, Hàn.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi từng làm [bán hàng|SKILL] ở [Di Động Việt|SKILL] 8 tháng và làm [kỹ thuật|SKILL] tại [Clickbuy|SKILL], biết [test máy xách tay|SKILL], [up ROM|SKILL], rảnh [ca tối|TIME] ở [Hải Châu|LOC], muốn làm [bán hàng|SKILL] hoặc [thu ngân|SKILL].
+Mình có kinh nghiệm làm [thu ngân|SKILL] tại [Hoàng Hà Mobile|SKILL] và [tư vấn bán hàng|SKILL] ở [CellphoneS|SKILL], biết [tư vấn trả góp|SKILL], rảnh [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Em từng làm [kỹ thuật viên|SKILL] ở [HungMobile|SKILL] và [bán hàng|SKILL] tại [XTmobile|SKILL], biết [kiểm tra máy cũ|SKILL], rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME] ở [Thanh Khê|LOC].
+minh tung lam [cskh|SKILL] o [viettablet|SKILL], biet [tieng anh giao tiep|SKILL], biet [test iphone xach tay|SKILL], ranh [sau 18h|TIME] o [ngu hanh son|LOC].
+# ===== BỔ SUNG YẾU TỐ XOAY CA LINH HOẠT, ĐĂNG KÝ CA VÀ TĂNG CA (OVERTIME / OT) =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi có thể [xoay ca linh hoạt|TIME], sẵn sàng [tăng ca|TIME] khi cửa hàng đông khách ở [Hải Châu|LOC].
+Mình là sinh viên, có thể [đăng ký ca linh hoạt|TIME] theo lịch học và [làm tăng ca|TIME] [cuối tuần|TIME].
+Em chịu được áp lực, [xoay ca thoải mái|TIME], có thể làm [ca gãy|TIME] hoặc [tăng ca|TIME] ở [Thanh Khê|LOC].
+Tôi có thể làm [ca sáng|TIME], [ca chiều|TIME] hoặc [ca tối|TIME], linh hoạt [xoay ca|TIME] theo xếp lịch của quản lý.
+Mình rảnh nhiều thời gian, sẵn sàng [làm OT|TIME] và [tăng ca đêm|TIME] ở [Sơn Trà|LOC].
+Em có thể [đăng ký ca hàng tuần|TIME], [xoay ca linh hoạt|TIME] và làm [thêm giờ|TIME] khi có yêu cầu.
+Tôi biết [bán hàng|SKILL] và [thu ngân|SKILL], có thể [xoay ca liên tục|TIME] khu vực [Ngũ Hành Sơn|LOC].
+Mình nhận làm [ca linh hoạt|TIME], không ngại [tăng ca|TIME] vào các ngày lễ Tết tại [Cẩm Lệ|LOC].
+Em có thể làm [ca 8 tiếng|TIME] hoặc [ca 12 tiếng|TIME], [xoay ca thoải mái|TIME] ở [Liên Chiểu|LOC].
+Tôi sẵn sàng [tăng ca đột xuất|TIME] khi nhà hàng thiếu người, nhà gần [Hải Châu|LOC].
+Mình có thể [đổi ca với nhân viên khác|TIME] và [xoay ca sáng tối|TIME] linh hoạt.
+Em học ca sáng nên có thể [xoay ca chiều tối|TIME] và [làm thêm giờ|TIME] vào ngày nghỉ.
+Tôi biết [pha chế|SKILL], chấp nhận [xoay ca|TIME] và [làm tăng ca|TIME] theo điều động của quán.
+Mình rảnh [cả ngày|TIME], [xoay ca tùy ý|TIME], sẵn sàng [tăng ca kịch khung|TIME] ở [Thanh Khê|LOC].
+
+# --- B. Không dấu hoàn toàn ---
+toi co the [xoay ca linh hoat|TIME], san sang [tang ca|TIME] o [hai chau|LOC]
+minh [danh ky ca linh hoat|TIME] duoc, co the [lam ot|TIME] [cuoi tuan|TIME] o [thanh khe|LOC]
+em [xoay ca thoai mai|TIME], lam duoc [ca gay|TIME] va [tang ca dem|TIME] o [son tra|LOC]
+toi biet [phuc vu|SKILL], nhan [xoay ca sang chieu toi|TIME] o [lien chieu|LOC]
+minh ranh nhieu, [xoay ca tuy y|TIME], [tang ca dot xuat|TIME] ok o [cam le|LOC]
+em lam duoc [ca 8h|TIME] hoac [ca 12h|TIME], [xoay ca linh hoat|TIME] o [ngu hanh son|LOC]
+
+# --- C. Teencode / viết tắt ---
+t [xoay ca thoải mái|TIME] nha, nhận [tăng ca|TIME] [ot|TIME] các kiểu ở [h.châu|LOC]
+mk [đăng ký ca linh hoạt|TIME] theo tuần đc, rảnh [xoay ca|TIME] ở [T.Khê|LOC]
+e làm [ca gãy|TIME] ok, [xoay ca sáng tối|TIME] thoải mái, có thể [ot|TIME] [cuối tuần|TIME]
+mik rảnh [full thời gian|TIME], [xoay ca tuỳ ý|TIME], ko ngại [tăng ca đêm|TIME] ở [S.Trà|LOC]
+e sẵn sàng [gánh ca|TIME] vs [tăng ca|TIME] khi quán đông khách ở [L.Chiểu|LOC] nhé
+t [xoay ca linh hoạt|TIME] đc, nhận [làm thêm giờ|TIME] ngày lễ ở [nhs|LOC]
+
+# --- E. Phủ định ---
+Tôi không thể [xoay ca|TIME|neg], chỉ làm được cố định [ca sáng|TIME].
+Mình không làm [tăng ca|TIME|neg] được vì phải về học bài [buổi tối|TIME].
+Em không làm được [ca gãy|TIME|neg] và không nhận [tăng ca đêm|TIME|neg].
+Tôi không chấp nhận [xoay ca liên tục|TIME|neg] do nhà xa.
+
+# --- F. Mức độ ---
+Tôi rất linh hoạt trong việc [xoay ca|TIME] và sẵn sàng [tăng ca|TIME] bất cứ lúc nào.
+Mình hoàn toàn chủ động thời gian, [xoay ca thoải mái|TIME] 24/7.
+Em có thể [tăng ca|TIME] tối đa 4 tiếng mỗi ngày nếu siêu thị cần.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi từng làm [bán hàng|SKILL] ở [WinMart+|SKILL], có thể [xoay ca linh hoạt|TIME] giữa [ca sáng|TIME] và [ca tối|TIME], không ngại [tăng ca|TIME] khi kiểm kê hàng hóa, ở [Hải Châu|LOC].
+Mình có kinh nghiệm [phục vụ|SKILL] chuỗi nhà hàng, [xoay ca thoải mái|TIME], làm được [ca gãy|TIME], sẵn sàng [làm OT|TIME] vào [cuối tuần|TIME] tại [Sơn Trà|LOC].
+Em biết [sử dụng máy POS|SKILL] và [thu ngân|SKILL], có thể [đăng ký ca theo tuần|TIME], [xoay ca linh hoạt|TIME] và [tăng ca đột xuất|TIME] ở [Thanh Khê|LOC].
+minh biet [pha che|SKILL], [xoay ca sang chieu toi|TIME] tuy y, san sang [tang ca dem|TIME] va [lam them gio|TIME] o [lien chieu|LOC], tim job barista.
+e có exp làm [chạy bàn|SKILL] [Kichi-Kichi|SKILL] [Vincom|LOC], [xoay ca thoải mái|TIME], nhận [gánh ca|TIME] vs [tăng ca|TIME] ngày lễ Tết ở [h.châu|LOC] ạ.
+# ===== BỔ SUNG KINH NGHIỆM KHU TRÒ CHƠI, GIẢI TRÍ, KHÁCH SẠN, NHÀ HÀNG TIỆC CƯỚI VÀ QUÁN NHẬU =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi từng làm [bán vé|SKILL] và [hướng dẫn|SKILL] tại [khu trò chơi|SKILL] ở [Hải Châu|LOC], rảnh [ca tối|TIME].
+Mình có kinh nghiệm [phục vụ tiệc cưới|SKILL] tại trung tâm hội nghị [Sơn Trà|LOC], rảnh [cuối tuần|TIME].
+Em từng làm [chạy bàn quán nhậu|SKILL] 1 năm, biết [bưng khay|SKILL] và [khui bia nhanh|SKILL] ở [Thanh Khê|LOC].
+Tôi có kinh nghiệm làm [buồng phòng|SKILL] khách sạn 3 sao, rảnh [từ 8h đến 16h|TIME] ở [Ngũ Hành Sơn|LOC].
+Mình từng làm [lễ tân khách sạn|SKILL], [check-in|SKILL] và [check-out|SKILL] cho khách ở [Sơn Trà|LOC].
+Em có kinh nghiệm [giám sát khu vui chơi trẻ em|SKILL] tại [TiniWorld|SKILL], rảnh [ca chiều|TIME].
+Tôi từng làm [tiếp thị bia|SKILL] cho quán nhậu lớn tại [Cẩm Lệ|LOC], rảnh [sau 17h30|TIME].
+Mình từng làm [phụ bếp tiệc cưới|SKILL], biết [chia đồ ăn|SKILL] và [setup bàn tiệc|SKILL] nhanh.
+Em có kinh nghiệm [vận hành trò chơi|SKILL] ở công viên giải trí [Sun World|LOC], rảnh [chủ nhật|TIME].
+Tôi từng làm [bảo vệ khách sạn|SKILL] và [dẫn xe cho khách|SKILL] ở [Liên Chiểu|LOC], rảnh [ca đêm|TIME].
+Mình có kinh nghiệm [quản lý quầy game|SKILL] trung tâm thương mại, biết [nạp thẻ game|SKILL] và [đổi quà|SKILL].
+Em từng làm [phục vụ tiệc|SKILL] tại nhà hàng tiệc cưới [For You|LOC], rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME].
+Tôi biết [dọn phòng khách sạn|SKILL] theo tiêu chuẩn, rảnh [ca sáng|TIME] ở [Ngũ Hành Sơn|LOC].
+Mình từng làm [bán hàng|SKILL] quầy quà tặng tại [khu du lịch|LOC] ở [Đà Nẵng|LOC].
+
+# --- B. Không dấu hoàn toàn ---
+toi tung lam [phuc vu nhang hang tiec cuoi|SKILL], ranh [cuoi tuan|TIME] o [hai chau|LOC]
+minh co kinh nghiem [chay ban quan nhau|SKILL], ranh [ca toi|TIME] o [thanh khe|LOC]
+em tung lam [le tan khach san|SKILL], ranh [tu 18h den 22h|TIME] o [son tra|LOC]
+toi biet [setup ban tiec|SKILL] va [bung khay|SKILL] o nha hang tiec cuoi [cam le|LOC]
+minh lam [buong phong khach san|SKILL], o [lien chieu|LOC], ranh [ca sang|TIME]
+em tung [quan ly khu vui choi|SKILL] tre em, ranh [sang|TIME] va [chieu|TIME] o [ngu hanh son|LOC]
+
+# --- C. Teencode / viết tắt ---
+e từng làm [phục vụ tiệc cưới|SKILL] nè, rảnh [t7 cn|TIME] ở [h.châu|LOC]
+mk có exp [chạy bàn quán nhậu|SKILL], biết [khui bia|SKILL] [khay đồ ăn|SKILL], rảnh [ca tối|TIME] nha
+t từng làm [buồng phòng|SKILL] [housekeeping|SKILL] khách sạn ở [S.Trà|LOC], rảnh [sau 6h|TIME]
+e làm [vận hành game|SKILL] ở [tiniworld|SKILL] đc 1 năm, ở [nhs|LOC] nhé
+mik bít [setup bàn tiệc|SKILL] nhà hàng cưới ở [T.Khê|LOC], rảnh [full ngày|TIME] [cn|TIME]
+e từng làm [lễ tân|SKILL] ks 3 sao ở [L.Chiểu|LOC], rảnh [8h-12h|TIME] ạ
+
+# --- E. Phủ định ---
+Tôi chưa từng làm ở [quán nhậu|SKILL|neg] nhưng biết [bưng bê|SKILL] và [phục vụ|SKILL] tốt.
+Mình không làm được [ca đêm|TIME|neg] tại các [khu vui chơi|SKILL|neg] hay [khách sạn|SKILL|neg].
+Em chưa có kinh nghiệm làm [buồng phòng khách sạn|SKILL|neg], rảnh [buổi sáng|TIME] ở [Hải Châu|LOC].
+Tôi không muốn làm [phục vụ|SKILL|neg] ở [nhà hàng tiệc cưới|SKILL|neg] vì làm việc quá sức.
+
+# --- F. Mức độ ---
+Tôi rất thành thạo việc [setup bàn tiệc cưới|SKILL] và [phục vụ món|SKILL] chuẩn nhà hàng.
+Mình có kinh nghiệm [quản lý ca|SKILL] 2 năm tại [khu vui chơi giải trí|SKILL].
+Em nắm rất rõ quy trình [check-in khách|SKILL] và [dọn phòng|SKILL] tiêu chuẩn khách sạn.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi từng làm [phục vụ tiệc cưới|SKILL] tại trung tâm hội nghị 1 năm và làm [chạy bàn quán nhậu|SKILL], biết [bưng khay|SKILL], [setup bàn|SKILL], rảnh [ca tối|TIME] ở [Hải Châu|LOC], muốn làm [phục vụ|SKILL] hoặc [bán hàng|SKILL].
+Mình có kinh nghiệm làm [lễ tân khách sạn|SKILL] và [buồng phòng|SKILL] ở [Sơn Trà|LOC], biết [giao tiếp tiếng Anh|SKILL], rảnh [cuối tuần|TIME] ở [Thanh Khê|LOC].
+Em từng làm [nhân viên vận hành trò chơi|SKILL] tại [Sun World|LOC] và [giám sát quầy game|SKILL], biết [nạp thẻ game|SKILL], rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME] ở [Liên Chiểu|LOC].
+minh tung lam [tiep thi bia|SKILL] o quan nhau va [phuc vu tiec cuoi|SKILL], biet [khui bia nhanh|SKILL], ranh [sau 18h|TIME] o [ngu hanh son|LOC].
+# ===== BỔ SUNG AM HIỂU CÔNG NGHỆ, ONLINE MARKETING, SEEDING DIỄN ĐÀN, CONTENT VÀ KỸ NĂNG LỢI THẾ DỊCH VỤ =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi [rành về công nghệ|SKILL], có khả năng [chạy quảng cáo Facebook|SKILL] và [tư vấn bán hàng|SKILL] ở [Hải Châu|LOC].
+Mình thành thạo [online marketing|SKILL], biết [đăng bài trên các diễn đàn|SKILL] và nhóm mạng xã hội.
+Em biết [quay video content|SKILL] thu hút khách trên TikTok, rảnh [ca tối|TIME] ở [Thanh Khê|LOC].
+Tôi có khả năng [sáng tạo content|SKILL] hấp dẫn, biết [seeding diễn đàn|SKILL] để kéo khách hàng.
+Mình am hiểu [công nghệ thông tin|SKILL], biết [xử lý sự cố máy tính|SKILL] và phần mềm [bán hàng|SKILL].
+Em biết [quay dựng clip bằng CapCut|SKILL] và [thiết kế banner|SKILL] quảng cáo [buổi tối|TIME].
+Tôi có lợi thế [nói chuyện duyên dáng|SKILL], [nắm bắt tâm lý khách hàng|SKILL] cực kỳ tốt tại [Sơn Trà|LOC].
+Mình có kỹ năng [quản trị Fanpage|SKILL], [trả lời tin nhắn khách|SKILL] và [chốt đơn online|SKILL].
+Em nhanh nhạy với [xu hướng mạng xã hội|SKILL], biết [lên kịch bản video|SKILL] ngắn hút view.
+Tôi am hiểu [các thiết bị công nghệ|SKILL], [cài đặt ứng dụng|SKILL] và hỗ trợ kỹ thuật ở [Ngũ Hành Sơn|LOC].
+Mình biết [bán hàng đa kênh|SKILL] trên Shopee, TikTok Shop và [đăng bài Forum|SKILL].
+Em có kỹ năng [chụp ảnh sản phẩm đẹp|SKILL] và [viết bài chuẩn SEO|SKILL], rảnh [cuối tuần|TIME].
+Tôi có lợi thế [ngoại ngữ tốt|SKILL], [giao tiếp tự nhiên|SKILL] và [thích ứng nhanh|SKILL] với môi trường mới.
+Mình biết [quản lý hệ thống POS|SKILL] và [tối ưu hóa quy trình dịch vụ|SKILL] tại nhà hàng.
+
+# --- B. Không dấu hoàn toàn ---
+toi [ranh ve cong nghe|SKILL], biet [chay ads facebook|SKILL] va [ban hang|SKILL] o [hai chau|LOC]
+minh gioi [online marketing|SKILL], biet [quay content tiktok|SKILL] ranh [cuoi tuan|TIME] o [thanh khe|LOC]
+em biet [dang bai tren cac dien dan|SKILL] va [seeding group|SKILL], ranh [ca toi|TIME] o [son tra|LOC]
+toi biet [quay dung video|SKILL] capcut, biet [thiet ke canva|SKILL] ranh [tu 18h den 22h|TIME]
+minh [ranh cong nghe|SKILL], [tiet kiem chi phi marketing|SKILL] cho shop o [lien chieu|LOC]
+em co ky nang [chot don online|SKILL] va [nam bat tam ly khach hang|SKILL] o [cam le|LOC]
+
+# --- C. Teencode / viết tắt ---
+t [rành công nghệ|SKILL] lắm nha, biết [chạy ads|SKILL] vs [seeding group|SKILL] ở [h.châu|LOC]
+mk giỏi [quay content|SKILL] tiktok, biết [edit capcut|SKILL] giật giật hút view, rảnh [ca tối|TIME]
+e bít [đăng bài forum|SKILL] vs [post hội nhóm|SKILL] để kéo khách, rảnh [t7 cn|TIME] ở [T.Khê|LOC]
+mik rành [digital marketing|SKILL], bít [chốt sale online|SKILL] vs [quản lý fanpage|SKILL] ở [S.Trà|LOC]
+e có lợi thế [giao tiếp duyên|SKILL], [nắm bắt trend|SKILL] tốt, tìm job dịch vụ ở [L.Chiểu|LOC] nhé
+t rành [tech|SKILL], bít [cài app|SKILL] [sửa lỗi máy tính|SKILL] hỗ trợ cửa hàng ở [nhs|LOC]
+
+# --- E. Phủ định ---
+Tôi không rành về [online marketing|SKILL|neg], chỉ làm được [bán hàng trực tiếp|SKILL].
+Mình không biết [quay video content|SKILL|neg] hay [edit clip|SKILL|neg] TikTok.
+Em chưa từng [chạy quảng cáo|SKILL|neg] hay [seeding diễn đàn|SKILL|neg] bao giờ.
+Tôi không am hiểu [công nghệ|SKILL|neg] nhưng bù lại rất [chăm chỉ|SKILL] và [lịch sự|SKILL].
+
+# --- F. Mức độ ---
+Tôi cực kỳ [rành về công nghệ|SKILL] và luôn đi đầu trong các [xu hướng marketing|SKILL].
+Mình có kinh nghiệm [sáng tạo content|SKILL] triệu view trên các nền tảng mạng xã hội.
+Em [bắt trend|SKILL] cực nhanh và biết cách ứng dụng vào bài viết quảng cáo.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi [rành về công nghệ|SKILL], thành thạo [online marketing|SKILL], biết [quay video content|SKILL] TikTok và [đăng bài diễn đàn|SKILL], rảnh [ca tối|TIME] từ thứ 2 đến thứ 6 ở [Hải Châu|LOC], muốn làm [marketing|SKILL] hoặc [bán hàng|SKILL].
+Mình có kinh nghiệm [quản trị Fanpage|SKILL], biết [seeding hội nhóm|SKILL], [chạy ads Facebook|SKILL] và [chốt đơn|SKILL], rảnh [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Em am hiểu [công nghệ|SKILL], biết [sử dụng máy POS|SKILL], [quay dựng clip CapCut|SKILL] quảng cáo và có [lợi thế giao tiếp|SKILL], rảnh [sáng thứ 7|TIME] và [chủ nhật|TIME] ở [Thanh Khê|LOC].
+min
+# ===== BỔ SUNG LÀM VIỆC TỪ XA, HỖ TRỢ KỸ THUẬT VÀ CHĂM SÓC KHÁCH HÀNG =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi muốn tìm việc [hỗ trợ kỹ thuật|SKILL] [làm việc từ xa|TIME] hoặc online tại nhà.
+Mình có kinh nghiệm [chăm sóc khách hàng|SKILL] [remote|TIME], rảnh [ca tối|TIME] ở [Hải Châu|LOC].
+Em có khả năng [hỗ trợ kỹ thuật|SKILL] qua điện thoại và chat, làm [từ xa|TIME] [cuối tuần|TIME].
+Tôi am hiểu [công nghệ|SKILL], biết [xử lý sự cố phần mềm|SKILL] và làm [technical support|SKILL] online.
+Mình từng làm [chăm sóc khách hàng|SKILL] qua tổng đài, có thể [làm việc từ xa|TIME] [ca đêm|TIME].
+Em có máy tính cá nhân, mạng mạnh, nhận [tư vấn khách hàng|SKILL] và [hỗ trợ kỹ thuật|SKILL] tại nhà.
+Tôi biết [cài đặt phần mềm|SKILL], [sửa lỗi máy tính từ xa|SKILL] qua UltraViewer và TeamViewer.
+Mình có kinh nghiệm [trả lời tin nhắn khách|SKILL] và [xử lý khiếu nại|SKILL] [remote|TIME] cho shop online.
+Em am hiểu [hệ thống CRM|SKILL], có kỹ năng [hỗ trợ kỹ thuật khách hàng|SKILL] [buổi tối|TIME].
+Tôi muốn làm [chăm sóc khách hàng|SKILL] qua email và fanpage, nhận việc [làm từ xa|TIME].
+Mình biết [hỗ trợ kỹ thuật|SKILL] mạng nội bộ, máy in và ứng dụng [bán hàng|SKILL].
+Em có giọng nói dễ nghe, kiên nhẫn, thích hợp làm [chăm sóc khách hàng|SKILL] [từ xa|TIME] ở [Sơn Trà|LOC].
+Tôi từng làm [IT Helpdesk|SKILL] [hỗ trợ kỹ thuật|SKILL] cho doanh nghiệp, rảnh [cuối tuần|TIME].
+Mình có thể [làm việc từ xa|TIME] linh hoạt, sẵn sàng [hỗ trợ kỹ thuật 24/7|SKILL] khi hệ thống gặp lỗi.
+
+# --- B. Không dấu hoàn toàn ---
+toi muon tim viec [lam viec tu xa|TIME], nhan [ho tro ky thuat|SKILL] va [chot don|SKILL] online
+minh co kinh nghiem [cham soc khach hang|SKILL] [remote|TIME], ranh [ca toi|TIME] o [hai chau|LOC]
+em biet [ho tro ky thuat|SKILL] qua ultraview, ranh [cuoi tuan|TIME] o [thanh khe|LOC]
+toi biet [sua loi may tinh tu xa|SKILL], lam [it helpdesk|SKILL] [lam tu xa|TIME] ok
+minh lam [chot don|SKILL] va [tu van khach hang|SKILL] online [ca dem|TIME] o [lien chieu|LOC]
+em co may tinh, muon lam [cskh|SKILL] [remote|TIME] [tu 18h den 22h|TIME]
+
+# --- C. Teencode / viết tắt ---
+t muốn kiếm job [remote|TIME] [làm từ xa|TIME], biết [hỗ trợ kỹ thuật|SKILL] vs [cskh|SKILL] ở [h.châu|LOC]
+mk nhận làm [cskh|SKILL] online tại nhà, rảnh [ca tối|TIME] [t7 cn|TIME] nha
+e bít [fix lỗi máy tính từ xa|SKILL] qua ultraviewer, làm [tech support|SKILL] [remote|TIME] ok
+mik rành [hệ thống crm|SKILL], bít [chăm sóc khách hàng|SKILL] qua chat/call ở [T.Khê|LOC]
+e có laptop mạnh, nhận [tư vấn fanpage|SKILL] vs [trực chat|SKILL] [làm việc từ xa|TIME]
+t làm [it helpdesk|SKILL] [hỗ trợ kỹ thuật|SKILL] online đc, ở [S.Trà|LOC] nhé
+
+# --- E. Phủ định ---
+Tôi không muốn làm việc trực tiếp tại cửa hàng, chỉ tìm job [làm việc từ xa|TIME].
+Mình không có kinh nghiệm [hỗ trợ kỹ thuật phần cứng|SKILL|neg], chỉ biết [chăm sóc khách hàng|SKILL].
+Em không làm được [chăm sóc khách hàng|SKILL|neg] qua điện thoại, chỉ làm được qua chat.
+Tôi không nhận công việc [hỗ trợ kỹ thuật|SKILL|neg] trực tiếp, chỉ làm [remote|TIME].
+
+# --- F. Mức độ ---
+Tôi rất thành thạo kỹ năng [hỗ trợ kỹ thuật|SKILL] và [giải quyết sự cố|SKILL] nhanh chóng.
+Mình có kinh nghiệm [chăm sóc khách hàng|SKILL] chuyên nghiệp hơn 2 năm hình thức [remote|TIME].
+Em có khả năng chịu áp lực cao khi [hỗ trợ kỹ thuật|SKILL] cho khách hàng khó tính.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi am hiểu [công nghệ|SKILL], biết [hỗ trợ kỹ thuật|SKILL] qua UltraViewer, có kinh nghiệm [chăm sóc khách hàng|SKILL] qua tổng đài, muốn tìm việc [làm việc từ xa|TIME] hoặc [remote|TIME] [buổi tối|TIME], ở [Hải Châu|LOC].
+Mình có máy tính cá nhân, mạng tốc độ cao, biết [chăm sóc khách hàng|SKILL], [trực chat fanpage|SKILL] và [hỗ trợ kỹ thuật phần mềm|SKILL], rảnh [cuối tuần|TIME] [làm tại nhà|TIME] ở [Thanh Khê|LOC].
+Em từng làm [IT Helpdesk|SKILL], có khả năng [hỗ trợ kỹ thuật|SKILL] mạng và máy tính, nhận làm [remote|TIME] [ca tối|TIME] hoặc [cuối tuần|TIME] ở [Sơn Trà|LOC].
+minh biet [ho tro ky thuat|SKILL] online, [cham soc khach hang|SKILL] qua chat va call, ranh [sau 18h|TIME] nhan viec [lam tu xa|TIME] o [ngu hanh
+# ===== BỔ SUNG NGOẠI HÌNH ƯA NHÌN, LIVESTREAM BÁN HÀNG, LIVESTREAM BUILD KÊNH VÀ MẪU ẢNH =====
+
+# --- A. Có dấu, văn phong chuẩn ---
+Tôi có [ngoại hình ưa nhìn|SKILL], lợi thế làm [livestream bán hàng|SKILL] và [tư vấn sản phẩm|SKILL] ở [Hải Châu|LOC].
+Mình có kinh nghiệm [livestream build kênh|SKILL] TikTok, rảnh [ca tối|TIME] ở [Thanh Khê|LOC].
+Em tự tin [ngoại hình sáng|SKILL], [giao tiếp duyên dáng|SKILL], muốn làm [idol livestream|SKILL] [cuối tuần|TIME].
+Tôi có khả năng [chốt đơn trên livestream|SKILL] và [mẫu ảnh chụp hình|SKILL] cho shop thời trang ở [Sơn Trà|LOC].
+Mình từng làm [host livestream|SKILL] bán quần áo, có kinh nghiệm [kéo tương tác|SKILL] và [tạo không khí|SKILL].
+Em có [ngoại hình cân đối|SKILL], gương mặt thiện cảm, thích hợp làm [lễ tân|SKILL] hoặc [livestreamer|SKILL].
+Tôi biết [lên kịch bản livestream|SKILL], [dẫn dắt người xem|SKILL] và [quản lý phòng live|SKILL] ở [Ngũ Hành Sơn|LOC].
+Mình có lợi thế [giao tiếp tự nhiên trước ống kính|SKILL] và [bắt trend TikTok|SKILL] rất nhanh.
+Em từng làm [mẫu livestream|SKILL] cho các nhãn hàng mỹ phẩm, rảnh [từ 18h đến 22h|TIME] ở [Cẩm Lệ|LOC].
+Tôi muốn tìm công việc [livestream tương tác|SKILL] build thương hiệu cá nhân hoặc cho cửa hàng.
+Mình có [ngoại hình đẹp|SKILL], giọng nói truyền cảm, nhận làm [MC livestream|SKILL] sự kiện tại [Liên Chiểu|LOC].
+Em có kinh nghiệm [livestream bán hàng đa kênh|SKILL] trên Shopee và TikTok Shop [buổi tối|TIME].
+
+# --- B. Không dấu hoàn toàn ---
+toi co [ngoai hinh ua nhin|SKILL], muon lam [livestream ban hang|SKILL] o [hai chau|LOC]
+minh gioi [livestream build kenh|SKILL] tiktok, ranh [ca toi|TIME] o [thanh khe|LOC]
+em [ngoai hinh sang|SKILL], [giao tiep tot|SKILL], nhan lam [mau livestream|SKILL] [cuoi tuan|TIME] o [son tra|LOC]
+toi biet [chot don livestream|SKILL] va [keo tuong tac|SKILL], ranh [tu 18h den 22h|TIME]
+minh tung lam [idol live|SKILL] va [host livestream|SKILL] o [lien chieu|LOC], ranh [ca chieu|TIME]
+em [co ngoai hinh|SKILL], nhan [livestream tu van|SKILL] cho shop o [cam le|LOC]
+
+# --- C. Teencode / viết tắt ---
+t có [ngoại hình ổn|SKILL] nha, nhận [live bán hàng|SKILL] vs [build kênh|SKILL] ở [h.châu|LOC]
+mk giỏi [livestream tiktok|SKILL], biết [kéo mắt xem|SKILL] vs [chốt đơn|SKILL], rảnh [ca tối|TIME] nha
+e tự tin [mặt sáng|SKILL], [duyên ăn nói|SKILL], nhận làm [idol live|SKILL] [t7 cn|TIME] ở [T.Khê|LOC]
+mik có lợi thế [ngoại hình|SKILL], bít [chụp mẫu ảnh|SKILL] vs [livestreamer|SKILL] ở [S.Trà|LOC]
+e làm [host live|SKILL] bán quần áo mỹ phẩm đc 1 năm, rảnh [8h-12h|TIME] ở [L.Chiểu|LOC]
+t bít [dựng kịch bản live|SKILL] vs [nói chuyện trước camera|SKILL] chuẩn ở [nhs|LOC]
+
+# --- E. Phủ định ---
+Tôi không tự tin về [ngoại hình|SKILL|neg], chỉ muốn làm [chăm sóc khách hàng|SKILL] đằng sau ống kính.
+Mình không biết [livestream bán hàng|SKILL|neg] hay [nói chuyện trước camera|SKILL|neg].
+Em chưa từng [livestream build kênh|SKILL|neg] hay làm [mẫu ảnh|SKILL|neg] bao giờ.
+Tôi không làm được các công việc yêu cầu [livestream ca đêm|TIME|neg].
+
+# --- F. Mức độ ---
+Tôi có [ngoại hình rất ưa nhìn|SKILL] và phản xạ [chốt đơn livestream|SKILL] cực kỳ nhanh.
+Mình là một [host livestream|SKILL] chuyên nghiệp với khả năng [kéo tương tác|SKILL] cao.
+Em sở hữu [gương mặt ăn ảnh|SKILL] và lối [nói chuyện cuốn hút|SKILL] khi lên sóng.
+
+# --- G. Câu dài / Nhiều thực thể ---
+Tôi có [ngoại hình ưa nhìn|SKILL], am hiểu [công nghệ|SKILL], biết [livestream bán hàng|SKILL] và [quay video content|SKILL] build kênh TikTok, rảnh [ca tối|TIME] từ thứ 2 đến thứ 6 ở [Hải Châu|LOC], muốn làm [livestreamer|SKILL] hoặc [bán hàng|SKILL].
+Mình có lợi thế [ngoại hình sáng|SKILL], giọng nói chuẩn, biết [chốt đơn trên livestream|SKILL] và [quản lý phòng live|SKILL], rảnh [cuối tuần|TIME] làm tại nhà hoặc tại shop ở [Sơn Trà|LOC].
+Em từng làm [mẫu livestream|SKILL] thời trang
