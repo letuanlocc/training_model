@@ -1,6 +1,6 @@
-# Dữ liệu đóng góp của Tuấn Tài
+# Dữ liệu đóng góp của Tuấn Tài — cập nhật nhãn SKILL/JOB/TIME/LOC
 
-Em muốn tìm việc gần nhà ở [Cẩm Lệ|LOC], em đã biết [pha chế|SKILL].
+Em muốn tìm việc gần nhà ở [Cẩm Lệ|LOC], em đã biết [pha chế|JOB].
 Lịch học của mình khá kín, chỉ rảnh [cuối tuần|TIME] để đi làm.
 toi biet [nhap lieu|SKILL], muon tim viec o [Thanh Khe|LOC].
 mik muốn làm [ca tối|TIME], nhà ở [Sơn Trà|LOC] nha.
@@ -8,21 +8,21 @@ Em không biết [tiếng Nhật|SKILL|neg], nhưng có thể dùng [tiếng Anh
 Mình không làm được [ca sáng|TIME|neg], muốn đăng ký [ca chiều|TIME].
 Em dùng được [Canva|SKILL] và [Photoshop|SKILL], muốn nhận thêm việc.
 Cho em hỏi cách cập nhật hồ sơ trên trang web với ạ.
-Em từng làm [thu ngân|SKILL] ở cửa hàng tiện lợi, hiện muốn tìm việc [sau 18h|TIME] tại [Hải Châu|LOC].
-Cửa hàng nào tại [Ngũ Hành Sơn|LOC] cần người [bán hàng|SKILL] [ca chiều|TIME] thì cho em xin thông tin với ạ.
+Em từng làm [thu ngân|JOB] ở cửa hàng tiện lợi, hiện muốn tìm việc [sau 18h|TIME] tại [Hải Châu|LOC].
+Cửa hàng nào tại [Ngũ Hành Sơn|LOC] cần người [bán hàng|JOB] [ca chiều|TIME] thì cho em xin thông tin với ạ.
 Em nhận [viết content|SKILL] cho shop nhỏ, có thể trao đổi công việc vào [buổi trưa|TIME].
-Em có [IELTS|SKILL] 6.5, muốn làm [gia sư|SKILL] [tiếng Anh|SKILL] ở [Liên Chiểu|LOC].
-Với kinh nghiệm [làm bánh|SKILL] tại tiệm gia đình, em muốn tìm việc [7h30-11h30|TIME] ở [Cẩm Lệ|LOC].
-em muon xin viec [phu bep|SKILL] [buoi sang|TIME], uu tien khu vuc [Hoa Vang|LOC].
+Em có [IELTS|SKILL] 6.5, muốn làm [gia sư|JOB] [tiếng Anh|SKILL] ở [Liên Chiểu|LOC].
+Với kinh nghiệm [làm bánh|JOB] tại tiệm gia đình, em muốn tìm việc [7h30-11h30|TIME] ở [Cẩm Lệ|LOC].
+em muon xin viec [phu bep|JOB] [buoi sang|TIME], uu tien khu vuc [Hoa Vang|LOC].
 co cho nao can nguoi [chup hinh|SKILL] san pham tai [Son Tra|LOC] khong a?
-minh nhan [giao hang|SKILL] [tu 18h den 22h|TIME] quanh [Thanh Khe|LOC], da co xe may.
+minh nhan [giao hang|JOB] [tu 18h den 22h|TIME] quanh [Thanh Khe|LOC], da co xe may.
 em dung duoc [Word|SKILL] va [Excel|SKILL], muon lam [nhap lieu|SKILL] trong khoang [8h-12h|TIME].
-toi muon tim viec [cham soc khach hang|SKILL] co su dung [tieng Han|SKILL].
-mik ở [NHS|LOC], rảnh [t7 cn|TIME], có kinh nghiệm [chạy bàn|SKILL] rùi ạ.
+toi muon tim viec [cham soc khach hang|JOB] co su dung [tieng Han|SKILL].
+mik ở [NHS|LOC], rảnh [t7 cn|TIME], có kinh nghiệm [chạy bàn|JOB] rùi ạ.
 e biết dùng [PTS|SKILL] với [edit video|SKILL], đang kiếm việc [ca tối|TIME] nha.
-có chỗ nào tuyển [CSKH|SKILL] làm [t2-t6|TIME] ko, cho e xin thông tin với.
+có chỗ nào tuyển [CSKH|JOB] làm [t2-t6|TIME] ko, cho e xin thông tin với.
 mik dùng đc [ppt|SKILL], rảnh [sau 17h30|TIME], muốn kiếm việc tại [ĐN|LOC].
-Em chưa biết [pha trà sữa|SKILL|neg], nhưng đã có kinh nghiệm [thu ngân|SKILL] ở cửa hàng nhỏ.
+Em chưa biết [pha trà sữa|JOB|neg], nhưng đã có kinh nghiệm [thu ngân|JOB] ở cửa hàng nhỏ.
 Mình không nhận [ca đêm|TIME|neg], có thể đăng ký [ca trưa|TIME] nếu còn chỗ.
 Em không tìm việc ở [Sơn Trà|LOC|neg], ưu tiên những chỗ thuộc [Hải Châu|LOC].
 Tôi chưa sử dụng được [Excel|SKILL|neg], nhưng soạn văn bản bằng [Word|SKILL] khá nhanh.
