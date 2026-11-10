@@ -1,0 +1,273 @@
+# Dữ liệu đóng góp của Anh Tài: 250 câu part-time job NER.
+# SKILL: kỹ năng; JOB: công việc; TIME: thời gian; LOC: địa điểm. Phủ định dùng |neg.
+# Mọi câu ngoài phần J (cố ý không có thực thể) đều có đủ 4 loại nhãn SKILL, JOB, TIME, LOC.
+
+# A. Kỹ năng và lịch rảnh (25 câu)
+Em là sinh viên kinh tế, thạo [Excel|SKILL], muốn làm [kế toán thời vụ|JOB] [chiều thứ 6|TIME] ở [Hải Châu|LOC].
+Mình biết [làm tóc|SKILL] cơ bản, muốn làm [thợ phụ salon|JOB] [ca sáng|TIME] ở [Thanh Khê|LOC].
+Tôi có [giấy phép lái xe B2|SKILL], nhận [chạy xe hợp đồng|JOB] [cuối tuần|TIME] quanh [Sơn Trà|LOC].
+Em biết [thiết kế poster|SKILL] bằng Illustrator, nhận [freelance đồ họa|JOB] [buổi tối|TIME], nhà ở [Cẩm Lệ|LOC].
+Mình nói được [tiếng Hàn|SKILL] giao tiếp, muốn làm [nhân viên nhà hàng Hàn|JOB] [ca tối|TIME] ở [Ngũ Hành Sơn|LOC].
+Tôi biết [sửa máy tính|SKILL], muốn làm [kỹ thuật viên|JOB], rảnh [sau 17h|TIME] ở [Liên Chiểu|LOC].
+Em chơi được [ukulele|SKILL], muốn làm [dạy nhạc cho bé|JOB] [sáng chủ nhật|TIME] tại [Hải Châu|LOC].
+Mình thạo [Google Sheets|SKILL], muốn làm [nhập liệu|JOB] [8h-11h|TIME] ở [Thanh Khê|LOC].
+Em có [kỹ năng thuyết trình|SKILL] tốt, muốn làm [PG sự kiện|JOB] [tối thứ 7|TIME] ở [Sơn Trà|LOC].
+Tôi biết [rang xay cà phê|SKILL], muốn làm [nhân viên cà phê|JOB] [ca sáng|TIME] ở [Cẩm Lệ|LOC].
+Mình biết [đóng gói hàng|SKILL] nhanh, muốn làm [nhân viên kho|JOB] [ca chiều|TIME] ở [Liên Chiểu|LOC].
+Em học [tiếng Nhật|SKILL] được một năm, muốn làm [phục vụ quán ramen|JOB] [ca tối|TIME] ở [Hải Châu|LOC].
+Tôi biết [chăm sóc cây cảnh|SKILL], muốn làm [thợ làm vườn|JOB] [sáng thứ 7|TIME] tại [Hòa Vang|LOC].
+Mình dùng được [Premiere|SKILL], muốn làm [dựng video|JOB] [cuối tuần|TIME] ở [Ngũ Hành Sơn|LOC].
+Em có [kỹ năng bán hàng|SKILL], muốn làm [nhân viên bán hàng|JOB] [14h-20h|TIME] ở [Thanh Khê|LOC].
+Tôi biết [sơ cứu|SKILL], muốn làm [nhân viên y tế trường học|JOB] [buổi sáng|TIME] ở [Sơn Trà|LOC].
+Mình giỏi [tiếng Anh giao tiếp|SKILL], muốn làm [hướng dẫn viên|JOB] [ngày lễ|TIME] ở [Hải Châu|LOC].
+Em biết [nấu chè|SKILL] và [làm sữa chua|SKILL], muốn làm [phụ quán ăn vặt|JOB] [ca chiều|TIME] ở [Cẩm Lệ|LOC].
+Tôi lái được [xe tải nhỏ|SKILL], muốn làm [chở hàng|JOB] [sáng sớm|TIME] ở [Hòa Vang|LOC].
+Mình có [kỹ năng trò chuyện với trẻ|SKILL], muốn làm [giữ trẻ|JOB] [tối thứ 4|TIME] ở [Liên Chiểu|LOC].
+Em dùng được [AutoCAD|SKILL], muốn làm [vẽ kỹ thuật|JOB] [buổi tối|TIME] ở [Ngũ Hành Sơn|LOC].
+Tôi biết [may rèm cửa|SKILL], muốn làm [thợ may|JOB] [ca sáng|TIME] ở [Thanh Khê|LOC].
+Mình viết [bài PR|SKILL] khá tốt, muốn làm [cộng tác viên nội dung|JOB] [sau 20h|TIME] ở [Hải Châu|LOC].
+Em biết [chụp ảnh đồ ăn|SKILL], muốn làm [nhiếp ảnh quán ăn|JOB] [ca trưa|TIME] ở [Sơn Trà|LOC].
+Tôi sử dụng thạo [máy in 3D|SKILL], muốn làm [kỹ thuật in ấn|JOB] [thứ 2 đến thứ 6|TIME] ở [Cẩm Lệ|LOC].
+
+# B. Công việc muốn ứng tuyển (25 câu)
+Em muốn làm [nhân viên rửa xe|JOB], biết [dùng máy rửa áp lực|SKILL], rảnh [sáng chủ nhật|TIME] ở [Liên Chiểu|LOC].
+Mình cần việc [phát tờ rơi|JOB], biết [giao tiếp với người lạ|SKILL], làm [cuối tuần|TIME] ở [Hải Châu|LOC].
+Tôi muốn ứng tuyển [thu ngân siêu thị|JOB], thạo [máy quét mã vạch|SKILL], làm [ca tối|TIME] ở [Thanh Khê|LOC].
+Em xin vị trí [phục vụ buffet|JOB], biết [bưng bê|SKILL], làm [ca trưa|TIME] ở [Sơn Trà|LOC].
+Mình muốn làm [giao đồ ăn|JOB], biết [đi xe máy đường dài|SKILL], làm [11h-14h|TIME] ở [Cẩm Lệ|LOC].
+Tôi tìm việc [gia sư toán|JOB], giỏi [toán cấp 2|SKILL], dạy [tối thứ 2 thứ 4|TIME] ở [Ngũ Hành Sơn|LOC].
+Em muốn làm [trực fanpage|JOB], có [kỹ năng nhắn tin chốt đơn|SKILL], rảnh [buổi tối|TIME] ở [Hải Châu|LOC].
+Mình xin làm [phụ bếp|JOB], biết [sơ chế rau củ|SKILL], làm [6h-10h|TIME] ở [Hòa Vang|LOC].
+Tôi muốn nhận việc [bốc dỡ hàng|JOB], có sức khỏe, biết [vận hành xe nâng tay|SKILL], làm [ca đêm|TIME] ở [Liên Chiểu|LOC].
+Em tìm vị trí [lễ tân spa|JOB], có [kỹ năng đặt lịch hẹn|SKILL], làm [ca chiều|TIME] ở [Sơn Trà|LOC].
+Mình muốn ứng tuyển [tạp vụ|JOB], biết [dùng máy lau sàn|SKILL], làm [sáng sớm|TIME] ở [Thanh Khê|LOC].
+Tôi cần việc [dạy tiếng Anh cho bé|JOB], giỏi [phát âm chuẩn|SKILL], dạy [chiều thứ 7|TIME] ở [Cẩm Lệ|LOC].
+Em xin làm [nhân viên order|JOB], biết [dùng máy tính bảng gọi món|SKILL], làm [ca tối|TIME] ở [Hải Châu|LOC].
+Mình muốn làm [bảo vệ tòa nhà|JOB], có [kỹ năng quan sát|SKILL], trực [ca đêm|TIME] ở [Ngũ Hành Sơn|LOC].
+Tôi tìm việc [soạn hàng online|JOB], biết [đóng gói nhanh|SKILL], làm [13h-17h|TIME] ở [Liên Chiểu|LOC].
+Em muốn làm [thợ phụ cắt tóc|JOB], biết [gội đầu|SKILL], làm [ca sáng|TIME] ở [Thanh Khê|LOC].
+Mình xin ứng tuyển [thông dịch viên|JOB], giỏi [tiếng Nhật|SKILL], làm [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Tôi muốn làm [nhân viên rạp phim|JOB], biết [giao tiếp lịch sự|SKILL], làm [ca tối|TIME] ở [Hải Châu|LOC].
+Em tìm việc [chạy bàn quán nhậu|JOB], biết [nhớ món nhanh|SKILL], làm [18h-23h|TIME] ở [Cẩm Lệ|LOC].
+Mình cần việc [đứng quầy bánh|JOB], biết [tính tiền nhanh|SKILL], làm [ca sáng|TIME] ở [Hòa Vang|LOC].
+Tôi muốn làm [phụ hồ|JOB], có sức khỏe, biết [trộn vữa|SKILL], làm [7h-16h|TIME] ở [Liên Chiểu|LOC].
+Em xin vị trí [trợ lý văn phòng|JOB], thạo [Word|SKILL], làm [thứ 2 đến thứ 6|TIME] ở [Hải Châu|LOC].
+Mình muốn làm [quay clip sản phẩm|JOB], biết [quay dựng bằng điện thoại|SKILL], làm [sau giờ học|TIME] ở [Thanh Khê|LOC].
+Tôi tìm việc [chăm sóc thú cưng|JOB], biết [tắm cho chó mèo|SKILL], làm [chiều chủ nhật|TIME] ở [Sơn Trà|LOC].
+Em muốn làm [tư vấn khóa học|JOB], có [kỹ năng thuyết phục|SKILL], làm [ca tối|TIME] ở [Ngũ Hành Sơn|LOC].
+
+# C. Phân biệt kỹ năng và vị trí công việc (25 câu)
+Em có kỹ năng [pha cà phê|SKILL], muốn làm [barista|JOB] [ca chiều|TIME] ở [Hải Châu|LOC].
+Mình biết [lập trình Java|SKILL], muốn làm [lập trình viên|JOB] [buổi tối|TIME] ở [Thanh Khê|LOC].
+Tôi giỏi [tiếng Pháp|SKILL], muốn làm [gia sư tiếng Pháp|JOB] [tối thứ 5|TIME] ở [Sơn Trà|LOC].
+Em biết [massage chân|SKILL], muốn làm [kỹ thuật viên spa|JOB] [ca sáng|TIME] ở [Cẩm Lệ|LOC].
+Mình dùng được [Photoshop|SKILL], muốn làm [retouch ảnh|JOB] [cuối tuần|TIME] ở [Ngũ Hành Sơn|LOC].
+Tôi biết [nấu ăn Âu|SKILL], muốn làm [phụ bếp nhà hàng|JOB] [ca tối|TIME] ở [Hải Châu|LOC].
+Em có [IELTS|SKILL] 6.5, muốn làm [trợ giảng tiếng Anh|JOB] [chiều thứ 3|TIME] ở [Liên Chiểu|LOC].
+Mình thạo [Excel|SKILL], muốn làm [nhân viên thống kê|JOB] [8h-12h|TIME] ở [Thanh Khê|LOC].
+Tôi biết [lái xe số|SKILL], muốn làm [shipper|JOB] [ca sáng|TIME] ở [Sơn Trà|LOC].
+Em biết [đan len|SKILL], muốn làm [bán đồ handmade|JOB] [cuối tuần|TIME] ở [Hải Châu|LOC].
+Mình có [kỹ năng trang trí bánh|SKILL], muốn làm [thợ bánh kem|JOB] [ca chiều|TIME] ở [Cẩm Lệ|LOC].
+Tôi biết [chơi trống|SKILL], muốn làm [nhạc công|JOB] [tối thứ 6|TIME] ở [Ngũ Hành Sơn|LOC].
+Em thạo [SEO|SKILL], muốn làm [nhân viên content web|JOB] [buổi sáng|TIME] ở [Thanh Khê|LOC].
+Mình biết [nói tiếng Trung|SKILL], muốn làm [nhân viên bán hàng khách Trung|JOB] [ca chiều|TIME] ở [Sơn Trà|LOC].
+Tôi biết [thiết kế web|SKILL], muốn làm [freelancer web|JOB] [sau 19h|TIME] ở [Hải Châu|LOC].
+Em có [kỹ năng đứng lớp|SKILL], muốn làm [giáo viên mầm non|JOB] [sáng thứ 2 đến thứ 6|TIME] ở [Liên Chiểu|LOC].
+Mình biết [dọn dẹp sâu|SKILL], muốn làm [nhân viên vệ sinh|JOB] [ca sáng|TIME] ở [Hòa Vang|LOC].
+Tôi biết [chụp ảnh cưới|SKILL], muốn làm [phụ nhiếp ảnh|JOB] [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Em dùng thạo [Canva|SKILL], muốn làm [thiết kế mạng xã hội|JOB] [buổi tối|TIME] ở [Cẩm Lệ|LOC].
+Mình biết [bơi ếch|SKILL], muốn làm [trợ lý dạy bơi|JOB] [sáng chủ nhật|TIME] ở [Ngũ Hành Sơn|LOC].
+Tôi có [kỹ năng giao tiếp qua điện thoại|SKILL], muốn làm [telesale|JOB] [14h-18h|TIME] ở [Hải Châu|LOC].
+Em biết [pha chế trà trái cây|SKILL], muốn làm [nhân viên trà sữa|JOB] [ca tối|TIME] ở [Thanh Khê|LOC].
+Mình biết [kiểm kê hàng|SKILL], muốn làm [nhân viên kiểm kho|JOB] [ca sáng|TIME] ở [Liên Chiểu|LOC].
+Tôi biết [hát tiếng Anh|SKILL], muốn làm [ca sĩ quán acoustic|JOB] [tối cuối tuần|TIME] ở [Sơn Trà|LOC].
+Em biết [thu âm podcast|SKILL], muốn làm [biên tập âm thanh|JOB] [sau 21h|TIME] ở [Cẩm Lệ|LOC].
+
+# D. Không dấu (25 câu)
+em biet [nau an chay|SKILL], muon lam [phu bep quan chay|JOB] [ca sang|TIME] o [Hai Chau|LOC].
+minh gioi [tieng Duc|SKILL], muon lam [phien dich|JOB] [cuoi tuan|TIME] o [Son Tra|LOC].
+toi dung duoc [Word|SKILL], muon lam [danh may van ban|JOB] [chieu thu 4|TIME] o [Thanh Khe|LOC].
+em biet [chay xe may|SKILL], muon lam [giao com van phong|JOB] [11h-13h|TIME] o [Cam Le|LOC].
+minh biet [cham soc da|SKILL], muon lam [ky thuat vien spa|JOB] [ca chieu|TIME] o [Ngu Hanh Son|LOC].
+toi biet [sua xe dap dien|SKILL], muon lam [tho sua xe|JOB] [sang som|TIME] o [Lien Chieu|LOC].
+em hoc [thiet ke do hoa|SKILL], muon lam [designer|JOB] [buoi toi|TIME] o [Hai Chau|LOC].
+minh biet [dong goi hang|SKILL], muon lam [nhan vien kho|JOB] [ca toi|TIME] o [Hoa Vang|LOC].
+toi co [ky nang dung lop|SKILL], muon lam [gia su tieu hoc|JOB] [chieu thu 6|TIME] o [Thanh Khe|LOC].
+em biet [pha che soda|SKILL], muon lam [phuc vu quan nuoc|JOB] [ca trua|TIME] o [Son Tra|LOC].
+minh thao [excel|SKILL], muon lam [nhap lieu|JOB] [8h-12h|TIME] o [Cam Le|LOC].
+toi biet [lam banh flan|SKILL], muon lam [phu banh|JOB] [ca sang|TIME] o [Ngu Hanh Son|LOC].
+em biet [tieng Trung|SKILL], muon lam [le tan khach san|JOB] [ca dem|TIME] o [Hai Chau|LOC].
+minh biet [chup anh san pham|SKILL], muon lam [nhiep anh|JOB] [cuoi tuan|TIME] o [Lien Chieu|LOC].
+toi biet [bao ve tai san|SKILL], muon lam [bao ve|JOB] [ca dem|TIME] o [Thanh Khe|LOC].
+em biet [dan guitar|SKILL], muon lam [day guitar|JOB] [toi thu 7|TIME] o [Son Tra|LOC].
+minh biet [tinh tien nhanh|SKILL], muon lam [thu ngan|JOB] [ca chieu|TIME] o [Cam Le|LOC].
+toi biet [lai xe oto|SKILL], muon lam [tai xe|JOB] [sang som|TIME] o [Hoa Vang|LOC].
+em biet [viet bai blog|SKILL], muon lam [content writer|JOB] [sau 20h|TIME] o [Hai Chau|LOC].
+minh biet [lam nail|SKILL], muon lam [tho nail|JOB] [ca chieu|TIME] o [Thanh Khe|LOC].
+toi biet [cham soc nguoi benh|SKILL], muon lam [dieu duong|JOB] [ca dem|TIME] o [Ngu Hanh Son|LOC].
+em biet [livestream|SKILL], muon lam [ban hang livestream|JOB] [buoi toi|TIME] o [Son Tra|LOC].
+minh biet [sua dien thoai|SKILL], muon lam [ky thuat vien|JOB] [ca sang|TIME] o [Lien Chieu|LOC].
+toi biet [giao tiep tieng anh|SKILL], muon lam [huong dan vien|JOB] [ngay le|TIME] o [Hai Chau|LOC].
+em biet [nau an gia dinh|SKILL], muon lam [giup viec nha|JOB] [buoi sang|TIME] o [Cam Le|LOC].
+
+# E. Không dấu, lựa chọn và phủ định (25 câu)
+toi khong ranh [thu 2|TIME|neg], chi ranh [thu 6|TIME] o [Hai Chau|LOC], biet [excel|SKILL], muon lam [nhap lieu|JOB].
+em chua biet [lai xe so|SKILL|neg], nhung muon lam [giao hang|JOB] [ca sang|TIME] o [Cam Le|LOC] bang xe ga, biet [chay xe ga|SKILL].
+minh khong muon lam [telesale|JOB|neg], muon lam [le tan|JOB], biet [giao tiep|SKILL], ranh [ca chieu|TIME] o [Son Tra|LOC].
+toi khong song o [Hoa Vang|LOC|neg], hien o [Lien Chieu|LOC], biet [sua may tinh|SKILL], muon lam [ky thuat vien|JOB] [ca sang|TIME].
+em khong dung duoc [Premiere|SKILL|neg], chi dung [CapCut|SKILL], muon lam [dung video|JOB] [buoi toi|TIME] o [Thanh Khe|LOC].
+minh khong lam duoc [ca trua|TIME|neg], ranh [ca toi|TIME], biet [pha che|SKILL], muon lam [phuc vu|JOB] o [Hai Chau|LOC].
+toi muon lam [rua xe|JOB] hoac [don dep|JOB] o [Ngu Hanh Son|LOC], biet [lau chui|SKILL], ranh [sang chu nhat|TIME].
+em biet [tieng Han|SKILL], chua biet [tieng Nhat|SKILL|neg], muon lam [phuc vu quan Han|JOB] [ca toi|TIME] o [Son Tra|LOC].
+minh lam duoc [ca chieu|TIME] o [Cam Le|LOC] hoac [Hai Chau|LOC], biet [thu ngan|SKILL], muon lam [thu ngan|JOB].
+toi khong nhan viec [giao hang|JOB|neg], muon lam [soan hang|JOB], biet [dong goi|SKILL], ranh [13h-17h|TIME] o [Lien Chieu|LOC].
+em khong gioi [Word|SKILL|neg], nhung dung [Excel|SKILL] on, muon lam [nhap so lieu|JOB] [ca sang|TIME] o [Thanh Khe|LOC].
+minh muon tim viec o [Son Tra|LOC] hoac [Thanh Khe|LOC], ranh [sau 19h|TIME], biet [ban hang|SKILL], muon lam [nhan vien ban hang|JOB].
+toi khong ranh [buoi sang|TIME|neg], co the lam [buoi chieu|TIME], biet [nau an|SKILL], muon lam [phu bep|JOB] o [Cam Le|LOC].
+em biet [lam banh|SKILL], muon xin viec [tho banh|JOB] vao [cuoi tuan|TIME] o [Hai Chau|LOC].
+minh khong muon lam [ca dem|TIME|neg], uu tien [ca sang|TIME] gan nha o [Ngu Hanh Son|LOC], biet [pha che|SKILL], lam [barista|JOB].
+toi chua biet [chup anh|SKILL|neg], nhung san sang hoc, muon lam [tro ly nhiep anh|JOB] [cuoi tuan|TIME] o [Son Tra|LOC].
+em dang tim vi tri [le tan|JOB], co ky nang [giao tiep|SKILL], ranh [ca sang|TIME] o [Thanh Khe|LOC].
+minh khong tim viec tai [Lien Chieu|LOC|neg] vi xa, biet [excel|SKILL], muon lam [nhap lieu|JOB] [8h-12h|TIME] o [Hai Chau|LOC].
+toi biet [tieng Anh|SKILL] va [tieng Phap|SKILL], ranh [chieu thu 7|TIME], muon lam [gia su|JOB] o [Cam Le|LOC].
+em muon lam [gia su ly|JOB], nhung khong day [ca toi|TIME|neg], gioi [vat ly|SKILL], ranh [sang thu 7|TIME] o [Son Tra|LOC].
+minh ranh [8h-11h|TIME], co the den [Hoa Vang|LOC] lam viec, biet [lai xe tai|SKILL], muon lam [tai xe|JOB].
+toi chua biet [lai xe tai|SKILL|neg], nhung biet [lai xe may|SKILL], muon lam [shipper|JOB] [ca toi|TIME] o [Lien Chieu|LOC].
+em khong muon lam [bao ve|JOB|neg], dang tim vi tri [thu ngan|JOB], biet [tinh tien|SKILL], ranh [ca chieu|TIME] o [Hai Chau|LOC].
+minh biet [viet bai|SKILL] va [lam video|SKILL], muon tim viec [content|JOB] o [Da Nang|LOC] [buoi toi|TIME].
+toi khong lam duoc [chu nhat|TIME|neg], chi nhan viec [thu 7|TIME], biet [ban hang|SKILL], lam [nhan vien cua hang|JOB] o [Thanh Khe|LOC].
+
+# F. Viết tắt và văn phong nhắn tin (25 câu)
+e ở [h.châu|LOC], bít [pha chế|SKILL], xin làm [phục vụ|JOB] [ca sáng|TIME] đc ko ạ?
+mik rảnh [t6 t7|TIME], bít [bán hàng|SKILL], muốn làm [sale|JOB] gần [S.Trà|LOC]
+t dùng đc [excel|SKILL], cần việc [nhập liệu|JOB] [ca chiều|TIME] ở [ĐN|LOC] nha mn
+e muốn làm [tư vấn viên|JOB], bít [giao tiếp|SKILL], rảnh [t2-t5|TIME] ở [T.Khê|LOC] ạ
+mk biết [làm tóc|SKILL] rồi, có tiệm nào tuyển [thợ phụ|JOB] [ca sáng|TIME] ở [L.Chiểu|LOC] ko?
+e ở [nhs|LOC], bít [chạy xe|SKILL], nhận [giao hàng|JOB] [sau 18h|TIME] đc ạ
+mik bít [photoshop|SKILL], muốn làm [thiết kế|JOB] [tối|TIME] gần [C.Lệ|LOC]
+t rảnh [chiều cn|TIME], bít [dọn dẹp|SKILL], có chỗ nào cần [giúp việc|JOB] ở [h.châu|LOC] ko mn?
+e chưa bít [tiếng nhật|SKILL|neg], nhưng bít [tiếng anh|SKILL], muốn làm [lễ tân|JOB] [ca tối|TIME] ở [S.Trà|LOC]
+mk ko nhận [ca đêm|TIME|neg], xin [ca sáng|TIME] tại [Hòa Vang|LOC] ạ, bít [nấu ăn|SKILL], làm [phụ bếp|JOB]
+e có [ielts|SKILL] 6.0, đang kiếm job [gia sư|JOB] [tối t3 t5|TIME] ở [ĐN|LOC]
+mik làm đc [7h-11h|TIME], bít dùng [word|SKILL], muốn làm [đánh máy|JOB] ở [T.Khê|LOC]
+t muốn làm [rửa chén|JOB], bít [làm nhanh|SKILL], rảnh [ca trưa|TIME], nhà gần [nhs|LOC]
+e bít [chăm bé|SKILL], nhận [trông trẻ|JOB] [t7|TIME] nha, ưu tiên [h.châu|LOC]
+mk bít [quay phim|SKILL] bằng đt, làm [edit clip|JOB], rảnh [tối muộn|TIME] ạ, ở [S.Trà|LOC]
+e ko rảnh [t4|TIME|neg], nhưng [chiều t5|TIME] thì làm đc, bít [bán hàng|SKILL], làm [nhân viên shop|JOB] ở [L.Chiểu|LOC]
+mik dùng [canva|SKILL] ổn, cần việc [design poster|JOB] [ca chiều|TIME] tại [C.Lệ|LOC]
+t muốn xin [shipper|JOB], có kỹ năng [lái xe ga|SKILL] nha, rảnh [ca tối|TIME] ở [T.Khê|LOC]
+e ở [đn|LOC], bít [tiếng hàn|SKILL], muốn làm [nhân viên quán hàn|JOB] [ca tối|TIME] ạ
+mk ko biết [pha cà phê|SKILL|neg], đang tìm việc [dọn bàn|JOB] [ca sáng|TIME] ở [nhs|LOC], bít [bưng bê|SKILL]
+e muốn làm [bán hàng online|JOB] [buổi tối|TIME], [chốt đơn|SKILL] tốt nha, ở [h.châu|LOC]
+mik bít [vẽ|SKILL] với [thiết kế|SKILL], rảnh [full ngày|TIME] [cn|TIME], muốn làm [họa sĩ minh họa|JOB] ở [ĐN|LOC]
+t ko xin việc [phát tờ rơi|JOB|neg], có chỗ nào tuyển [chạy bàn|JOB] [ca tối|TIME] ko, bít [bưng khay|SKILL], ở [L.Chiểu|LOC]?
+e muốn nhận [dạy kèm|JOB] [tiếng anh|SKILL] [tối t2|TIME] quanh [nhs|LOC] ạ
+mk bít [chụp hình|SKILL], muốn tìm job [nhiếp ảnh sự kiện|JOB] [cuối tuần|TIME] tại [S.Trà|LOC]
+
+# G. Phủ định rõ ràng (25 câu)
+Em chưa biết [nấu ăn|SKILL|neg], nên muốn xin vị trí [rửa chén|JOB] trước, làm [ca sáng|TIME] ở [Thanh Khê|LOC].
+Tôi không muốn làm [bán hàng|JOB|neg], dù đã có kỹ năng [bán hàng|SKILL], muốn làm [giữ trẻ|JOB] [ca chiều|TIME] ở [Hải Châu|LOC].
+Mình không rảnh [buổi tối|TIME|neg], chỉ sắp xếp được [từ 8h đến 12h|TIME], biết [Excel|SKILL], muốn làm [nhập liệu|JOB] ở [Cẩm Lệ|LOC].
+Em không nhận việc tại [Sơn Trà|LOC|neg], ưu tiên [Thanh Khê|LOC] cho gần nhà, biết [giao tiếp|SKILL], muốn làm [lễ tân|JOB] [ca chiều|TIME].
+Tôi chưa dùng được [Illustrator|SKILL|neg], nhưng thạo [Canva|SKILL], muốn làm [thiết kế|JOB] [ca sáng|TIME] ở [Liên Chiểu|LOC].
+Mình không muốn ứng tuyển [shipper|JOB|neg], đang quan tâm [nhân viên kho|JOB], biết [đóng gói|SKILL], rảnh [buổi sáng|TIME] ở [Hải Châu|LOC].
+Em không nói được [tiếng Đức|SKILL|neg], chỉ dùng được [tiếng Anh|SKILL], muốn làm [hướng dẫn viên|JOB] [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Tôi không làm được [từ 6h đến 10h|TIME|neg], có thể nhận [13h-17h|TIME], biết [giao tiếp|SKILL], làm [tư vấn|JOB] ở [Thanh Khê|LOC].
+Mình không muốn xin việc ở [Hòa Vang|LOC|neg], đi [Cẩm Lệ|LOC] tiện hơn, biết [sơ chế|SKILL], làm [phụ bếp|JOB] [ca sáng|TIME].
+Em chưa biết [thiết kế web|SKILL|neg], nhưng có thể dùng [Word|SKILL], muốn làm [soạn thảo văn bản|JOB] [buổi tối|TIME] ở [Hải Châu|LOC].
+Tôi không nhận vị trí [bảo vệ|JOB|neg], chỉ muốn làm [thu ngân|JOB], biết [tính tiền|SKILL], rảnh [ca tối|TIME] ở [Liên Chiểu|LOC].
+Mình không rảnh [ngày lễ|TIME|neg], tìm việc làm [ngày thường|TIME], biết [Excel|SKILL], làm [kế toán|JOB] ở [Ngũ Hành Sơn|LOC].
+Em chưa có kỹ năng [pha cocktail|SKILL|neg], nhưng đã biết [pha trà|SKILL], muốn làm [phục vụ quán trà|JOB] [ca chiều|TIME] ở [Sơn Trà|LOC].
+Tôi không muốn làm [PG|JOB|neg], đang tìm công việc [chăm sóc khách hàng|JOB], biết [giao tiếp|SKILL], rảnh [ca sáng|TIME] ở [Thanh Khê|LOC].
+Mình không dùng được [Excel|SKILL|neg], nhưng biết [Word|SKILL], muốn tìm việc [đánh máy|JOB] [ca chiều|TIME] ở [Hải Châu|LOC].
+Em không thể đi [Liên Chiểu|LOC|neg] làm việc, chỉ tìm quanh [Hải Châu|LOC], biết [pha chế|SKILL], làm [phục vụ|JOB] [ca tối|TIME].
+Tôi không nhận [ca sáng|TIME|neg] vì có lịch học cố định, nhận [ca tối|TIME], biết [bưng bê|SKILL], làm [chạy bàn|JOB] ở [Cẩm Lệ|LOC].
+Mình không biết [lái ô tô|SKILL|neg], mong tìm chỗ làm gần nơi ở [Thanh Khê|LOC], biết [Canva|SKILL], làm [thiết kế|JOB] [ca sáng|TIME].
+Em không muốn làm [bốc xếp|JOB|neg], đang cân nhắc vị trí [phục vụ|JOB], biết [giao tiếp|SKILL], rảnh [ca chiều|TIME] ở [Sơn Trà|LOC].
+Tôi chưa biết [tiếng Hàn|SKILL|neg], nhưng đang học thêm, biết [tiếng Anh|SKILL], muốn làm [lễ tân|JOB] [ca tối|TIME] ở [Hải Châu|LOC].
+Mình không đi làm được [sáng thứ 7|TIME|neg], còn [chiều thứ 7|TIME] thì rảnh, biết [bán hàng|SKILL], làm [nhân viên bán hàng|JOB] ở [Cẩm Lệ|LOC].
+Em không muốn ứng tuyển [dạy kèm|JOB|neg], ưu tiên [thu ngân|JOB] gần [Ngũ Hành Sơn|LOC], biết [tính tiền|SKILL], rảnh [ca tối|TIME].
+Tôi chưa có kỹ năng [quay phim|SKILL|neg], nhưng đã biết [chụp ảnh|SKILL], muốn làm [nhiếp ảnh|JOB] [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Mình không nhận lịch [sau 22h|TIME|neg], mong được làm [ca chiều|TIME], biết [pha chế|SKILL], làm [barista|JOB] ở [Thanh Khê|LOC].
+Em không biết [bơi|SKILL|neg], muốn tìm công việc [nhân viên quán nước|JOB] phù hợp, biết [bưng bê|SKILL], rảnh [ca sáng|TIME] ở [Hải Châu|LOC].
+
+# H. Nhiều thực thể và lựa chọn (25 câu)
+Em biết [tiếng Nhật|SKILL] với [Excel|SKILL], muốn xin [nhân viên văn phòng|JOB] ở [Thanh Khê|LOC] làm [ca sáng|TIME].
+Mình đang ở [Liên Chiểu|LOC], có thể đến [Thanh Khê|LOC] làm [phục vụ|JOB] vào [thứ 7|TIME], biết [bưng bê|SKILL].
+Tôi có kỹ năng [làm bánh|SKILL] và [pha chế|SKILL], muốn ứng tuyển [thợ bánh|JOB] hoặc [barista|JOB] [ca sáng|TIME] ở [Hải Châu|LOC].
+Em rảnh [buổi sáng|TIME] và [buổi tối|TIME], biết [tư vấn|SKILL], có thể làm [bán hàng|JOB] tại [Sơn Trà|LOC].
+Mình biết [lái xe máy|SKILL], muốn làm [giao hàng|JOB] ở [Cẩm Lệ|LOC] hoặc [Hòa Vang|LOC], lịch [sau 17h|TIME].
+Tôi biết [tiếng Trung|SKILL] và [tiếng Anh|SKILL], muốn làm [CSKH|JOB] [ca chiều|TIME] ở [Ngũ Hành Sơn|LOC].
+Em học [mỹ thuật|SKILL], dùng được [Illustrator|SKILL], cần việc [thiết kế logo|JOB] [cuối tuần|TIME] tại [Đà Nẵng|LOC].
+Mình biết [chăm sóc người già|SKILL], tìm việc [giúp việc|JOB] [sáng thứ 7|TIME] hoặc [chiều chủ nhật|TIME] gần [Hải Châu|LOC].
+Tôi có [TOEIC|SKILL] 800, muốn làm [gia sư|JOB] dạy [tiếng Anh|SKILL] [buổi tối|TIME] ở [Thanh Khê|LOC].
+Em biết [pha chế|SKILL], không muốn làm [ca khuya|TIME|neg], mong ứng tuyển [phục vụ|JOB] [ca tối|TIME] ở [Sơn Trà|LOC].
+Mình giỏi [thuyết phục|SKILL], muốn làm [sale|JOB] [ca sáng|TIME] ở [Cẩm Lệ|LOC] hoặc [Liên Chiểu|LOC].
+Tôi dùng được [Word|SKILL], [Excel|SKILL] và [Access|SKILL], muốn làm [quản lý dữ liệu|JOB], rảnh [8h-12h|TIME] ở [Hải Châu|LOC].
+Em biết [nấu ăn|SKILL], muốn xin [phụ bếp|JOB] tại [Thanh Khê|LOC], có thể nhận [thứ 6|TIME] và [thứ 7|TIME].
+Mình biết [chụp ảnh|SKILL] với [dựng video|SKILL], muốn làm [content creator|JOB] [cuối tuần|TIME], ưu tiên ở [Sơn Trà|LOC].
+Tôi biết [dùng máy POS|SKILL], muốn ứng tuyển [thu ngân|JOB] hoặc [nhân viên order|JOB] làm [13h-19h|TIME] ở [Ngũ Hành Sơn|LOC].
+Em có khả năng [viết kịch bản|SKILL] và [lên ý tưởng|SKILL], muốn làm [content TikTok|JOB], rảnh [sau 19h|TIME] tại [Cẩm Lệ|LOC].
+Mình biết [lái xe tải|SKILL] và [lái xe máy|SKILL], muốn làm [tài xế|JOB] [cả ngày|TIME], đang tìm việc quanh [Liên Chiểu|LOC].
+Tôi không nhận [phụ hồ|JOB|neg], muốn làm [dọn dẹp|JOB] [ca chiều|TIME] ở [Hải Châu|LOC], biết [lau chùi|SKILL].
+Em biết [tiếng Hàn|SKILL], muốn xin [tư vấn mỹ phẩm Hàn|JOB] và làm [cuối tuần|TIME] ở [Sơn Trà|LOC].
+Mình biết [dạy toán|SKILL], rảnh [7h-11h|TIME] hoặc [13h-17h|TIME], muốn nhận [gia sư|JOB] ở [Thanh Khê|LOC].
+Tôi có kỹ năng [trà đạo|SKILL], muốn xin vị trí [phục vụ trà|JOB] [ca sáng|TIME] tại [Hải Châu|LOC].
+Em dùng [Premiere|SKILL] khá tốt, chưa dùng được [After Effects|SKILL|neg], có thể làm [ca tối|TIME], muốn làm [dựng phim|JOB] ở [Cẩm Lệ|LOC].
+Mình muốn làm [rửa xe|JOB] tại [Ngũ Hành Sơn|LOC], không nhận ca ở [Hòa Vang|LOC|neg], biết [dùng máy rửa xe|SKILL], rảnh [sáng chủ nhật|TIME].
+Tôi biết [đàn organ|SKILL] và [hát|SKILL], muốn làm [nhạc công tiệc cưới|JOB], chỉ đi được [tối thứ 7|TIME] ở [Sơn Trà|LOC].
+Em biết [sơ chế|SKILL], cần việc [phụ bếp|JOB] hoặc [rửa chén|JOB] làm [ca tối|TIME] quanh [Thanh Khê|LOC].
+
+# I. Câu dài và tình huống thực tế (25 câu)
+Em đang học năm hai, biết [tiếng Anh|SKILL] ở mức giao tiếp và muốn ứng tuyển [phục vụ quán cà phê|JOB] làm [ca chiều|TIME] gần [Thanh Khê|LOC] để tiện đi học.
+Mình từng làm [nhân viên bán hàng|JOB], biết [tư vấn khách|SKILL], hiện chuyển chỗ ở sang [Liên Chiểu|LOC] nên cần tìm việc mới với lịch [buổi tối|TIME].
+Tôi đã học [pha chế|SKILL] qua một khóa ngắn hạn, muốn xin vào vị trí [nhân viên pha chế|JOB] ở [Hải Châu|LOC] và có thể làm [cuối tuần|TIME].
+Em biết [Word|SKILL] và [PowerPoint|SKILL], chưa dùng được [Excel|SKILL|neg], muốn tìm công việc [soạn thảo|JOB] phù hợp tại [Sơn Trà|LOC] [ca sáng|TIME].
+Nhà mình ở [Cẩm Lệ|LOC], mình biết [lái xe máy|SKILL] và muốn làm [giao thực phẩm|JOB] trong khung [từ 15h đến 19h|TIME].
+Em có kỹ năng [làm bánh mì|SKILL] nhưng chưa từng làm ở tiệm, mong được thử vị trí [phụ bánh mì|JOB] [ca sáng|TIME] tại [Ngũ Hành Sơn|LOC].
+Tôi giỏi [vật lý|SKILL], rảnh [tối thứ 3|TIME] và [sáng chủ nhật|TIME], muốn nhận [gia sư|JOB] cho học sinh gần [Hải Châu|LOC].
+Mình sử dụng [Photoshop|SKILL] để làm banner cho trường, muốn làm [thiết kế banner|JOB], có thể đi làm [sau 19h|TIME] tại [Đà Nẵng|LOC].
+Em không muốn làm [ca khuya|TIME|neg] vì khó đi lại, nhưng biết [bán hàng|SKILL] và có thể ứng tuyển [nhân viên cửa hàng|JOB] [ca chiều|TIME] tại [Thanh Khê|LOC].
+Tôi muốn ứng tuyển [chăm sóc khách hàng|JOB], có khả năng [giao tiếp|SKILL] và nói được [tiếng Nhật|SKILL], ưu tiên [Sơn Trà|LOC] [giờ hành chính|TIME].
+Mình đang tìm việc [giữ trẻ|JOB] tại [Liên Chiểu|LOC], biết [chơi với trẻ|SKILL], có thể nhận [ngày thường|TIME] nhưng không làm [thứ 7|TIME|neg].
+Em mới học [lập trình web|SKILL], đã dùng [HTML|SKILL] để làm bài tập và muốn tìm việc [thực tập sinh web|JOB] phù hợp với lịch [cuối tuần|TIME] ở [Hải Châu|LOC].
+Tôi chưa có kỹ năng [pha cà phê|SKILL|neg], biết [bưng bê|SKILL], đang tìm vị trí [phục vụ|JOB] [ca tối|TIME] tại [Cẩm Lệ|LOC].
+Mình nói được [tiếng Hàn|SKILL] cơ bản và có kỹ năng [giao tiếp|SKILL], muốn làm [tư vấn|JOB] [buổi sáng|TIME] ở [Thanh Khê|LOC].
+Em có thể [quay video|SKILL] và [chụp ảnh|SKILL] cho quán, muốn tìm việc [nhân viên truyền thông|JOB] gần [Sơn Trà|LOC] với lịch [sau 18h|TIME].
+Tôi muốn xin vị trí [phụ bếp|JOB] vì đã biết [sơ chế|SKILL], có thể làm [từ 6h đến 10h|TIME] tại [Hải Châu|LOC].
+Mình dùng [Excel|SKILL] khá thành thạo, muốn làm [nhân viên kế toán|JOB], hiện rảnh [ca chiều|TIME] và muốn tìm công việc tại [Ngũ Hành Sơn|LOC].
+Em muốn làm [gia sư|JOB] dạy [tiếng Pháp|SKILL], ưu tiên học sinh ở [Thanh Khê|LOC] hoặc [Hải Châu|LOC] và lịch [buổi tối|TIME].
+Tôi không có kỹ năng [lái xe số|SKILL|neg], nhưng biết [lái xe ga|SKILL] và muốn nhận [giao hàng|JOB] [ca sáng|TIME] quanh [Liên Chiểu|LOC].
+Mình biết [pha trà|SKILL] nhưng không muốn ứng tuyển [barista|JOB|neg], đang tìm vị trí [thu ngân|JOB] làm [ca chiều|TIME] ở [Sơn Trà|LOC].
+Em đang ở trọ tại [Cẩm Lệ|LOC], biết [lau dọn|SKILL], muốn xin [tạp vụ|JOB] theo lịch [7h-11h|TIME] để không trùng giờ học.
+Tôi học [quản trị kinh doanh|SKILL] ở trường và dùng được [Excel|SKILL], muốn ứng tuyển [trợ lý bán hàng|JOB] [ca sáng|TIME] tại [Hải Châu|LOC].
+Mình muốn nhận vị trí [MC tiệc|JOB] cho chương trình ở [Đà Nẵng|LOC], có kỹ năng [giao tiếp|SKILL] và rảnh [tối chủ nhật|TIME].
+Em không nhận việc tại [Liên Chiểu|LOC|neg] vì xa nơi ở, biết [bưng bê|SKILL], mong tìm [phục vụ|JOB] ở [Thanh Khê|LOC] làm [ca chiều|TIME].
+Tôi có thể đi làm [cả ngày|TIME] vào [thứ 7|TIME], biết [dọn dẹp|SKILL], muốn xin [dọn nhà|JOB] hoặc [giặt ủi|JOB] quanh [Sơn Trà|LOC].
+
+# J. Không có thực thể mục tiêu (25 câu)
+Cho em xin thêm chi tiết về điều khoản làm việc tại cửa hàng.
+Em muốn biết bên mình có tuyển thêm nhân viên mới không ạ?
+Mình cần chuẩn bị những gì trước khi đi phỏng vấn?
+Anh chị cho em hỏi lương được trả theo tuần hay theo tháng ạ?
+Tôi đã gửi hồ sơ từ hôm qua nhưng chưa thấy ai liên lạc.
+Em đang tìm một công việc có môi trường làm việc vui vẻ.
+Mình muốn hỏi bên mình có bao ăn trưa cho nhân viên không?
+Tôi chưa từng đi làm thêm nhưng rất muốn thử sức.
+Em có thể bắt đầu làm việc ngay khi được nhận ạ.
+Cho mình hỏi công việc này có cần đặt cọc gì không?
+Anh chị có thể gửi cho em mô tả công việc chi tiết không ạ?
+Tôi muốn biết thời gian thử việc kéo dài bao lâu.
+Em xin phép hỏi về chế độ nghỉ phép của nhân viên.
+Mình mới ra trường nên chưa có nhiều kinh nghiệm.
+Tôi cần một công việc ổn định để phụ giúp gia đình.
+Em đã đọc kỹ thông tin tuyển dụng và muốn ứng tuyển.
+Mình có thể đến gặp trực tiếp để trao đổi thêm được không ạ?
+Anh chị cho em hỏi cần nộp những giấy tờ nào khi nhận việc?
+Tôi muốn hỏi về khả năng tăng lương sau thời gian làm việc.
+Em sẽ gửi lại CV đã chỉnh sửa trong hôm nay.
+Mình cần biết rõ ai là người phụ trách phỏng vấn.
+Tôi rất mong sớm nhận được phản hồi từ phía anh chị.
+Em có thể làm việc nhóm và nghe theo sự phân công.
+Mình muốn xác nhận lại lịch hẹn phỏng vấn đã sắp xếp.
+Cảm ơn anh chị đã dành thời gian đọc tin nhắn của em.
