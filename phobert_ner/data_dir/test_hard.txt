@@ -1,7 +1,7 @@
 minh	_	_	O
 lam	_	_	O
-phuc	_	_	B-SKILL
-vu	_	_	I-SKILL
+phuc	_	_	B-JOB
+vu	_	_	I-JOB
 duoc	_	_	O
 ,	_	_	O
 ranh	_	_	O
@@ -67,8 +67,8 @@ cho	_	_	O
 minh	_	_	O
 xin	_	_	O
 viec	_	_	O
-ban	_	_	B-SKILL
-hang	_	_	I-SKILL
+ban	_	_	B-JOB
+hang	_	_	I-JOB
 o	_	_	O
 ngu	_	_	B-LOC
 hanh_son	_	_	I-LOC
@@ -116,8 +116,8 @@ toeic	_	_	B-SKILL
 minh	_	_	O
 can	_	_	O
 viec	_	_	O
-giao	_	_	B-SKILL
-hang	_	_	I-SKILL
+giao	_	_	B-JOB
+hang	_	_	I-JOB
 gan	_	_	O
 lien	_	_	B-LOC
 chieu	_	_	I-LOC
@@ -153,10 +153,10 @@ rieng	_	_	O
 toi	_	_	O
 muon	_	_	O
 lam	_	_	O
-cham	_	_	B-SKILL
-soc	_	_	I-SKILL
-khach	_	_	I-SKILL
-hang	_	_	I-SKILL
+cham	_	_	B-JOB
+soc	_	_	I-JOB
+khach	_	_	I-JOB
+hang	_	_	I-JOB
 ca	_	_	B-TIME
 dem	_	_	I-TIME
 
@@ -204,8 +204,8 @@ có	_	_	O
 xe	_	_	O
 nên	_	_	O
 không	_	_	O
-giao	_	_	B-SKILL
-hàng	_	_	I-SKILL
+giao	_	_	B-JOB
+hàng	_	_	I-JOB
 được	_	_	O
 ạ	_	_	O
 .	_	_	O
@@ -274,7 +274,7 @@ nguy_hiểm	_	_	O
 Em	_	_	O
 chưa	_	_	O
 bao_giờ	_	_	O
-phục_vụ	_	_	B-SKILL
+phục_vụ	_	_	B-JOB
 nhưng	_	_	O
 em	_	_	O
 sẽ	_	_	O
@@ -285,13 +285,13 @@ Tôi	_	_	O
 đã	_	_	O
 nghỉ	_	_	O
 làm	_	_	O
-shipper	_	_	B-SKILL
+shipper	_	_	B-JOB
 rồi	_	_	O
 ,	_	_	O
 giờ	_	_	O
 muốn	_	_	O
 làm	_	_	O
-thu_ngân	_	_	B-SKILL
+thu_ngân	_	_	B-JOB
 .	_	_	O
 
 Không	_	_	O
@@ -428,8 +428,8 @@ Tối	_	_	B-TIME
 Ai	_	_	O
 cần	_	_	O
 người	_	_	O
-dạy	_	_	B-SKILL
-kèm	_	_	I-SKILL
+dạy	_	_	B-JOB
+kèm	_	_	I-JOB
 tiếng	_	_	B-SKILL
 Nhật	_	_	I-SKILL
 thì	_	_	O
@@ -456,7 +456,7 @@ Hồi	_	_	O
 trước	_	_	O
 em	_	_	O
 làm	_	_	O
-phục_vụ	_	_	B-SKILL
+phục_vụ	_	_	B-JOB
 ở	_	_	O
 Sơn_Trà	_	_	B-LOC
 ,	_	_	O
@@ -464,7 +464,7 @@ giờ	_	_	O
 muốn	_	_	O
 đổi	_	_	O
 sang	_	_	O
-pha_chế	_	_	B-SKILL
+pha_chế	_	_	B-JOB
 .	_	_	O
 
 Anh_trai	_	_	O
@@ -554,8 +554,8 @@ lập_trình	_	_	B-SKILL
 trường	_	_	O
 nhưng	_	_	O
 thích	_	_	O
-bán	_	_	B-SKILL
-hàng	_	_	I-SKILL
+bán	_	_	B-JOB
+hàng	_	_	I-JOB
 hơn	_	_	O
 .	_	_	O
 
@@ -568,11 +568,11 @@ không	_	_	O
 ạ	_	_	O
 ,	_	_	O
 kiểu	_	_	O
-giao	_	_	B-SKILL
-báo	_	_	I-SKILL
+giao	_	_	B-JOB
+báo	_	_	I-JOB
 hay	_	_	O
-bán	_	_	B-SKILL
-bánh_mì	_	_	I-SKILL
+bán	_	_	B-JOB
+bánh_mì	_	_	I-JOB
 cũng	_	_	O
 được	_	_	O
 .	_	_	O
@@ -594,7 +594,7 @@ chút	_	_	O
 Ngũ_Hành_Sơn	_	_	B-LOC
 có	_	_	O
 việc	_	_	O
-phục_vụ	_	_	B-SKILL
+phục_vụ	_	_	B-JOB
 ca	_	_	B-TIME
 trưa	_	_	I-TIME
 không	_	_	O
@@ -606,7 +606,7 @@ tuổi	_	_	O
 có	_	_	O
 làm	_	_	O
 được	_	_	O
-phục_vụ	_	_	B-SKILL
+phục_vụ	_	_	B-JOB
 không	_	_	O
 ạ	_	_	O
 ?	_	_	O
@@ -616,7 +616,7 @@ IELTS	_	_	B-SKILL
 ,	_	_	O
 cần	_	_	O
 job	_	_	O
-gia_sư	_	_	B-SKILL
+gia_sư	_	_	B-JOB
 lương	_	_	O
 cao	_	_	O
 .	_	_	O
@@ -636,8 +636,8 @@ Sơn_Trà	_	_	B-LOC
 có	_	_	O
 ai	_	_	O
 cần	_	_	O
-trông	_	_	B-SKILL
-trẻ	_	_	I-SKILL
+trông	_	_	B-JOB
+trẻ	_	_	I-JOB
 không	_	_	O
 ?	_	_	O
 
@@ -660,10 +660,10 @@ với	_	_	O
 người	_	_	O
 ,	_	_	O
 ví_dụ	_	_	O
-tư_vấn	_	_	B-SKILL
+tư_vấn	_	_	B-JOB
 hay	_	_	O
-chăm_sóc	_	_	B-SKILL
-khách_hàng	_	_	I-SKILL
+chăm_sóc	_	_	B-JOB
+khách_hàng	_	_	I-JOB
 .	_	_	O
 
 Đi	_	_	O
@@ -793,8 +793,8 @@ rạng	_	_	B-TIME
 sáng	_	_	I-TIME
 ,	_	_	O
 có_thể	_	_	O
-bán	_	_	B-SKILL
-hàng	_	_	I-SKILL
+bán	_	_	B-JOB
+hàng	_	_	I-JOB
 ở	_	_	O
 chợ	_	_	O
 .	_	_	O
@@ -808,8 +808,8 @@ Anh	_	_	I-SKILL
 
 Tôi	_	_	O
 có_thể	_	_	O
-chạy	_	_	B-SKILL
-Grab	_	_	I-SKILL
+chạy	_	_	B-JOB
+Grab	_	_	I-JOB
 buổi	_	_	B-TIME
 tối	_	_	I-TIME
 .	_	_	O
@@ -834,7 +834,7 @@ thường	_	_	I-TIME
 
 Tôi	_	_	O
 làm	_	_	O
-bảo_vệ	_	_	B-SKILL
+bảo_vệ	_	_	B-JOB
 ca	_	_	O
 đêm	_	_	B-TIME
 được	_	_	O
@@ -861,8 +861,8 @@ nha	_	_	O
 
 Em	_	_	O
 có_thể	_	_	O
-phát	_	_	B-SKILL
-tờ_rơi	_	_	I-SKILL
+phát	_	_	B-JOB
+tờ_rơi	_	_	I-JOB
 cuối	_	_	B-TIME
 tuần	_	_	I-TIME
 ở	_	_	O
@@ -965,8 +965,8 @@ năm	_	_	O
 3	_	_	O
 ,	_	_	O
 có_thể	_	_	O
-dạy	_	_	B-SKILL
-kèm	_	_	I-SKILL
+dạy	_	_	B-JOB
+kèm	_	_	I-JOB
 Toán	_	_	B-SKILL
 và	_	_	O
 Lý	_	_	B-SKILL
@@ -1103,9 +1103,9 @@ lúc_nào	_	_	O
 nữa	_	_	O
 .	_	_	O
 
-Thu_ngân	_	_	B-SKILL
+Thu_ngân	_	_	B-JOB
 hay	_	_	O
-phục_vụ	_	_	B-SKILL
+phục_vụ	_	_	B-JOB
 gì	_	_	O
 em	_	_	O
 cũng	_	_	O
@@ -1161,7 +1161,7 @@ Tôi	_	_	O
 đã	_	_	O
 từng	_	_	O
 là	_	_	O
-gia_sư	_	_	B-SKILL
+gia_sư	_	_	B-JOB
 tiếng	_	_	B-SKILL
 Anh	_	_	I-SKILL
 cho	_	_	O
