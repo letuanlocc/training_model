@@ -97,6 +97,7 @@ lieu	_	_	I-SKILL
 
 So sánh 4 phương pháp trên cùng `data_dir/`, cùng siêu tham số, 1 lần train / 1 seed mỗi kiến trúc
 (notebook: [notebook_colab_compare.ipynb](phobert_ner/notebook_colab_compare.ipynb)). F1 mức thực thể (seqeval).
+Số liệu thô: [results/compare.csv](results/compare.csv), biểu đồ: [results/compare.png](results/compare.png).
 
 | Model | test micro-F1 | test_hard micro-F1 | test_hard P / R |
 |---|---|---|---|
