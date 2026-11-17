@@ -95,32 +95,79 @@ lieu	_	_	I-SKILL
 
 ## Kết quả
 
-### PhoBERT + softmax (seqeval, mức thực thể)
+So sánh 4 phương pháp trên cùng `data_dir/`, cùng siêu tham số, 1 lần train / 1 seed mỗi kiến trúc
+(notebook: [notebook_colab_compare.ipynb](phobert_ner/notebook_colab_compare.ipynb)). F1 mức thực thể (seqeval).
 
-| Nhãn | test F1 | test_hard F1 |
-|---|---|---|
-| JOB | 0.924 | 0.815 |
-| LOC | 0.987 | 0.938 |
-| SKILL | 0.875 | 0.894 |
-| TIME | 0.954 | 0.819 |
-| **micro** | **0.934** (P 0.932 / R 0.935) | **0.868** (P 0.884 / R 0.852) |
+| Model | test micro-F1 | test_hard micro-F1 | test_hard P / R |
+|---|---|---|---|
+| Baseline (từ điển + regex) | 0.752 | 0.827 | 0.894 / 0.770 |
+| PhoBERT + softmax | 0.934 | 0.868 | 0.884 / 0.852 |
+| PhoBERT + CRF | 0.932 | **0.883** | 0.879 / 0.888 |
+| PhoBERT + LSTM-CRF | **0.938** | 0.878 | 0.859 / 0.898 |
 
-Theo nhóm câu (F1): có dấu 0.938 / 0.861, không dấu 0.923 / 0.895, phủ định 0.956 / 0.920 (test / test_hard).
-Câu không có thực thể: test sạch 29/30, test_hard sạch 4/4.
+F1 theo nhãn trên test_hard:
 
-Model, confusion matrix, file dự đoán và báo cáo nằm trên
-[Google Drive](https://drive.google.com/drive/folders/1sB2yuWcbcShMBRWG0VeC1jklLIyb35rw).
-Mới có kết quả của softmax; crf và lstm_crf chưa có số liệu.
+| Model | JOB | LOC | SKILL | TIME |
+|---|---|---|---|---|
+| Baseline | 0.821 | 1.000 | 0.714 | 0.803 |
+| softmax | 0.815 | 0.938 | 0.894 | 0.819 |
+| CRF | 0.800 | 0.952 | 0.937 | 0.822 |
+| LSTM-CRF | 0.867 | 0.954 | 0.919 | 0.794 |
 
-### Baseline từ điển + regex (chạy lại trên dữ liệu có JOB)
+F1 theo nhóm câu (test / test_hard):
 
-| Tập | Baseline micro F1 | PhoBERT softmax |
-|---|---|---|
-| test | 0.752 (P 0.856 / R 0.671) | **0.934** |
-| test_hard | 0.827 (P 0.894 / R 0.770) | **0.868** |
+| Nhóm | Baseline | softmax | CRF | LSTM-CRF |
+|---|---|---|---|---|
+| có dấu | 0.767 / 0.801 | 0.938 / 0.861 | 0.936 / 0.873 | 0.947 / 0.890 |
+| không dấu | 0.716 / 0.923 | 0.923 / 0.895 | 0.921 / 0.923 | 0.917 / 0.829 |
+| phủ định | 0.776 / 0.944 | 0.956 / 0.920 | 0.964 / 0.932 | 0.973 / 0.923 |
 
-PhoBERT softmax vượt baseline trên cả hai tập; khoảng cách trên `test_hard` (+0.04) nhỏ hơn nhiều so với `test` (+0.18).
-Baseline yếu nhất ở recall (từ điển không phủ hết cách diễn đạt), đặc biệt SKILL trên test_hard (R 0.565).
+### Nhận xét theo research questions
+
+- **RQ1 (PhoBERT vs baseline):** cả 3 biến thể PhoBERT vượt baseline về micro-F1 trên cả hai tập: +0.18 trên `test`
+  và +0.04 đến +0.056 trên `test_hard`. Lợi thế đến từ recall (baseline bỏ sót nhiều SKILL/JOB không có trong từ điển).
+  Tuy nhiên baseline không thua đều: nó tốt hơn ở LOC (1.000) và ở nhóm không dấu / phủ định trên test_hard.
+- **RQ2 (thêm CRF / LSTM-CRF):** chênh lệch giữa 3 kiến trúc nhỏ. Trên `test` chỉ ~0.005 (LSTM-CRF cao nhất), trên
+  `test_hard` CRF và LSTM-CRF hơn softmax khoảng 0.01–0.016. Với 1 seed và test_hard chỉ có 196 thực thể, chênh lệch cỡ
+  này **chưa đủ để kết luận chắc chắn** kiến trúc nào tốt hơn; có thể nói CRF/LSTM-CRF cải thiện recall trên test_hard
+  (0.888 / 0.898 so với 0.852) nhưng đổi lại precision thấp hơn.
+- **RQ3 (không dấu, phủ định):** trên `test`, câu không dấu thấp hơn câu có dấu khoảng 0.015–0.03 ở cả 3 model;
+  câu phủ định không bị ảnh hưởng (còn cao hơn). Trên `test_hard` nhóm không dấu chỉ có 21 câu nên số dao động mạnh
+  (LSTM-CRF 0.829 so với CRF 0.923), không nên diễn giải quá mức.
+
+### Phân tích lỗi
+
+Số lỗi theo loại (so thực thể gold với thực thể dự đoán):
+
+| Model | Tập | Thiếu | Thừa | Sai ranh giới | Sai nhãn | Tổng |
+|---|---|---|---|---|---|---|
+| Baseline | test | 535 | 8 | 109 | 135 | 787 |
+| Baseline | test_hard | 32 | 4 | 8 | 5 | 49 |
+| softmax | test | 21 | 21 | 127 | 5 | 174 |
+| softmax | test_hard | 12 | 4 | 13 | 4 | 33 |
+| CRF | test | 10 | 26 | 134 | 5 | 175 |
+| CRF | test_hard | 7 | 7 | 12 | 3 | 29 |
+| LSTM-CRF | test | 10 | 38 | 113 | 5 | 166 |
+| LSTM-CRF | test_hard | 3 | 11 | 14 | 3 | 31 |
+
+Nhận xét:
+
+- **Baseline** lỗi chủ yếu là *thiếu* (535/787 trên test): từ điển không phủ hết JOB và SKILL (F1 trên test chỉ 0.525 và 0.494).
+- **Sai ranh giới là lỗi chính của cả 3 model PhoBERT trên test** (113–134 trên ~170 lỗi, khoảng 70–77%), và chiếm khoảng 40–48% trên test_hard.
+  Ví dụ (softmax, test_hard): gold `từ 6 giờ chiều đến 10 giờ tối` nhưng model chỉ lấy `6 giờ chiều`; gold `dạy kèm`, model lấy `dạy`;
+  gold `chu nhat`, model lấy `tru chu nhat` (kéo thêm từ "trừ").
+  Khoảng thời gian dài và cụm nhiều từ là chỗ khó nhất.
+- **CRF và LSTM-CRF giảm lỗi *thiếu* nhưng tăng lỗi *thừa*:** trên test_hard, lỗi thiếu 12 → 7 → 3 (softmax → CRF → LSTM-CRF),
+  lỗi thừa 4 → 7 → 11. Khớp với kết quả recall tăng, precision giảm ở RQ2.
+- **Câu phủ định gây cả hai hướng lỗi.** Dù nhãn vẫn gán cho thực thể bị phủ định, model đôi khi bỏ sót
+  (`Em chưa bao giờ phục vụ…` → bỏ `phục vụ`; `không phải người Đà Nẵng…` → bỏ `Đà Nẵng`), và đôi khi gán thừa
+  (`không biết bơi nên không làm cứu hộ` → thừa `cứu hộ` ở trường hợp gold không gán; `về khuya` → TIME).
+- **Một số lỗi khác:** LOC không dấu bị bỏ (`quan hai chau`, `di thanh khe`); viết tắt `T2` gán nhầm SKILL thay vì TIME, `T4` bị bỏ.
+
+Lưu ý: các ví dụ trên là 15 lỗi đầu tiên của softmax trên test_hard, chưa phải thống kê đầy đủ. Chưa kiểm tra xem lỗi ranh giới
+trên `test` có tập trung ở một số template hay không.
+
+Model, confusion matrix và file dự đoán của softmax: [Google Drive](https://drive.google.com/drive/folders/1sB2yuWcbcShMBRWG0VeC1jklLIyb35rw).
 
 ## Đóng góp dữ liệu
 
