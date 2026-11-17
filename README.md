@@ -93,16 +93,34 @@ nhap	_	_	B-SKILL
 lieu	_	_	I-SKILL
 ```
 
-## Kết quả baseline (từ điển + regex, F1 mức thực thể)
+## Kết quả
 
-| Tập | micro F1 |
-|---|---|
-| test | 0.982 |
-| test_hard | 0.855 |
+### PhoBERT + softmax (seqeval, mức thực thể)
 
-`test` gần như là tập "đóng" (thực thể cùng từ điển với train), nên thước đo có ý nghĩa là **`test_hard`**:
-model PhoBERT chỉ đáng giá nếu vượt baseline trên tập này. Số liệu có thể đã thay đổi khi dữ liệu được mở rộng
-(thêm nhãn `JOB`, thêm câu của các thành viên) — chạy lại `baseline_dict.py` để có số mới.
+| Nhãn | test F1 | test_hard F1 |
+|---|---|---|
+| JOB | 0.924 | 0.815 |
+| LOC | 0.987 | 0.938 |
+| SKILL | 0.875 | 0.894 |
+| TIME | 0.954 | 0.819 |
+| **micro** | **0.934** (P 0.932 / R 0.935) | **0.868** (P 0.884 / R 0.852) |
+
+Theo nhóm câu (F1): có dấu 0.938 / 0.861, không dấu 0.923 / 0.895, phủ định 0.956 / 0.920 (test / test_hard).
+Câu không có thực thể: test sạch 29/30, test_hard sạch 4/4.
+
+Model, confusion matrix, file dự đoán và báo cáo nằm trên
+[Google Drive](https://drive.google.com/drive/folders/1sB2yuWcbcShMBRWG0VeC1jklLIyb35rw).
+Mới có kết quả của softmax; crf và lstm_crf chưa có số liệu.
+
+### Baseline từ điển + regex (chạy lại trên dữ liệu có JOB)
+
+| Tập | Baseline micro F1 | PhoBERT softmax |
+|---|---|---|
+| test | 0.752 (P 0.856 / R 0.671) | **0.934** |
+| test_hard | 0.827 (P 0.894 / R 0.770) | **0.868** |
+
+PhoBERT softmax vượt baseline trên cả hai tập; khoảng cách trên `test_hard` (+0.04) nhỏ hơn nhiều so với `test` (+0.18).
+Baseline yếu nhất ở recall (từ điển không phủ hết cách diễn đạt), đặc biệt SKILL trên test_hard (R 0.565).
 
 ## Đóng góp dữ liệu
 
