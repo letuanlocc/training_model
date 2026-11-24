@@ -1,5 +1,9 @@
 # SETUP_REPORT — NER tiếng Việt (SKILL / TIME / LOC) với VPhoBertTagger
 
+> **Lưu ý: tài liệu này là ảnh chụp lúc cài đặt ban đầu (2026-10-28).** Nhãn hiện tại gồm 4 loại SKILL / JOB / TIME / LOC; số liệu dữ liệu,
+> baseline (F1 0.982 ở đây là của bộ dữ liệu cũ) và trạng thái "chưa train đầy đủ" đã lỗi thời. Kết quả hiện hành xem [README gốc](../README.md#kết-quả).
+> Các mục về thay đổi repo (§2), quy ước gán nhãn (§4.1) và cách sinh dữ liệu (§4.2) vẫn còn đúng.
+
 Ngày: 2026-10-28 · Máy: Windows 11, Python 3.12.10, **chỉ CPU** (không có GPU), Java 1.8.0_401.
 Trạng thái: pipeline đã chạy được trọn vẹn ở mức **smoke test** (1 epoch, 40 câu train). **Chưa train đầy đủ.**
 
