@@ -15,6 +15,26 @@ Nhãn theo định dạng BIO (`O`, `B-SKILL`, `I-SKILL`, `B-JOB`, …) — xem 
 
 Ví dụ: `tôi giỏi [tiếng anh|SKILL], rảnh vào [tối|TIME] và ở [Hải Châu|LOC]`
 
+## Bối cảnh và Problem Statement
+
+**Bối cảnh (kịch bản giả định).** Các nền tảng tuyển dụng việc bán thời gian / thời vụ (phục vụ, gia sư, giao hàng…) thường
+nhận hồ sơ dưới dạng một đoạn tự giới thiệu viết tự do bằng tiếng Việt, hay có teencode, viết tắt (`T2`, `T4`) hoặc không dấu.
+Nhà tuyển dụng phải đọc tay từng đoạn để biết ứng viên *làm được gì, rảnh lúc nào, ở khu vực nào*; việc này chậm và khó lọc/tìm kiếm.
+Dự án giả định bối cảnh Đà Nẵng (nhãn LOC gồm 7 quận/huyện và "Đà Nẵng").
+
+**Problem statement.** Cho một câu tự giới thiệu tiếng Việt của người tìm việc, tự động trích xuất các thực thể
+`SKILL`, `JOB`, `TIME`, `LOC` (gán nhãn BIO mức token) để có thể lọc và ghép ứng viên với tin tuyển dụng mà không cần đọc tay.
+Bài toán khó ở chỗ: câu ngắn, nhiều biến thể viết (có dấu / không dấu / viết tắt), thực thể nhiều từ
+(`từ 6 giờ chiều đến 10 giờ tối`), và câu phủ định (`không biết bơi nên không làm cứu hộ`).
+
+### Research questions
+
+- **RQ1:** Fine-tune PhoBERT có vượt baseline từ điển + regex không, và vượt ở loại thực thể / nhóm câu nào?
+- **RQ2:** Thêm lớp CRF hoặc LSTM-CRF lên PhoBERT có cải thiện so với softmax thuần không (xét micro-F1 và P/R)?
+- **RQ3:** Model xử lý thế nào với câu không dấu và câu phủ định so với câu có dấu thông thường?
+
+Phần trả lời nằm ở mục [Nhận xét theo research questions](#nhận-xét-theo-research-questions).
+
 ## Cấu trúc thư mục
 
 ```
@@ -93,6 +113,23 @@ nhap	_	_	B-SKILL
 lieu	_	_	I-SKILL
 ```
 
+## Quyết định thiết kế và lý do
+
+| Quyết định | Lý do |
+|---|---|
+| Dùng `vinai/phobert-base` | Mô hình pretrained tiếng Việt; nhẹ hơn bản large, đủ để fine-tune trên Colab với ~1.5k câu train. |
+| Tách từ bằng VnCoreNLP trước khi đưa vào PhoBERT | PhoBERT được pretrain trên văn bản đã tách từ, đưa câu thô sẽ lệch phân bố. |
+| So sánh softmax / CRF / LSTM-CRF với cùng siêu tham số | Để chênh lệch kết quả quy về kiến trúc (RQ2), không phải do chỉnh tham số. Siêu tham số: `lr=3e-5`, batch 32, `max_seq_length=128` (câu dài nhất 55 subword), tối đa 30 epoch, early-stop 5. |
+| Chọn model theo **dev**, không phải test | Code gốc chọn model trên tập test (rò rỉ); đã sửa trong `trainer.py` (xem [SETUP_REPORT.md](phobert_ner/SETUP_REPORT.md) §2). |
+| Baseline từ điển + regex | Mốc tối thiểu để biết PhoBERT có đáng dùng không (RQ1). |
+| Dữ liệu = câu viết tay + sinh từ template, chia 80/10/10 **theo nhóm** | Chưa có dữ liệu thật; chia theo nhóm (câu gốc và các bản biến thể cùng một tập) để tránh rò rỉ. Số nhóm nằm ở >1 tập: 0. |
+| Thêm `test_hard` viết tay riêng | `test` chứa nhiều câu từ template nên dễ; `test_hard` phản ánh tốt hơn khả năng tổng quát hoá. |
+| Báo cáo F1 theo nhãn và theo nhóm (có dấu / không dấu / phủ định) | Để trả lời RQ3 và thấy model yếu ở đâu thay vì chỉ một con số tổng. |
+| Phủ định vẫn gán nhãn bình thường | Bài toán là trích xuất thực thể, không phải hiểu ý nghĩa; cờ `negated` lưu riêng ở file meta. |
+| Chuẩn hoá dấu kiểu cũ (`hòa → hoà`) | Khớp `normalize_text` của repo gốc lúc suy luận, để train và predict cùng quy ước. |
+
+Quy ước gán nhãn chi tiết (SKILL, TIME, LOC) ở [SETUP_REPORT.md](phobert_ner/SETUP_REPORT.md) §4.1.
+
 ## Kết quả
 
 So sánh 4 phương pháp trên cùng `data_dir/`, cùng siêu tham số, 1 lần train / 1 seed mỗi kiến trúc
@@ -168,7 +205,24 @@ Nhận xét:
 Lưu ý: các ví dụ trên là 15 lỗi đầu tiên của softmax trên test_hard, chưa phải thống kê đầy đủ. Chưa kiểm tra xem lỗi ranh giới
 trên `test` có tập trung ở một số template hay không.
 
+### Hạn chế
+
+- Dữ liệu là câu viết tay + sinh tự động, không phải câu thật của người tìm việc; `test` cao (~0.93) một phần vì chứa câu từ template,
+  `test_hard` (~0.87–0.88) đáng tin hơn nhưng chỉ có 102 câu / 196 thực thể.
+- Mỗi kiến trúc chỉ train 1 seed nên chênh lệch giữa softmax / CRF / LSTM-CRF chưa có ý nghĩa thống kê.
+- Nhãn do một người gán, chưa đo độ đồng thuận giữa người gán.
+
 Model, confusion matrix và file dự đoán của softmax: [Google Drive](https://drive.google.com/drive/folders/1sB2yuWcbcShMBRWG0VeC1jklLIyb35rw).
+
+## Nguồn và đóng góp của nhóm
+
+**Lấy từ nguồn ngoài (đã ghi nguồn):**
+- [VPhoBertTagger](https://github.com/datnvhust/VPhoBertTagger) (`phobert_ner/VPhoBertTagger/`): code train / predict PhoBERT + softmax / CRF / LSTM-CRF. Chúng tôi chỉ sửa nhẹ (6 file, +34/−12 dòng, xem `phobert_ner/repo_changes.diff`): thêm task `jobner`, chọn model theo dev thay vì test, `weights_only=False` cho torch mới, sửa khởi tạo trọng số CRF/LSTM và một lỗi lúc predict LSTM-CRF.
+- Mô hình [`vinai/phobert-base`](https://huggingface.co/vinai/phobert-base) và bộ tách từ VnCoreNLP.
+- Thư viện: PyTorch, Hugging Face Transformers, seqeval.
+
+**Do nhóm tự làm:** toàn bộ `phobert_ner/data_build/` (từ điển, template, câu viết tay, pipeline sinh/kiểm tra dữ liệu, baseline, `predict_conll.py`, `eval_report.py`),
+`data_dir/`, script `train_*.sh`, các notebook Colab, thiết kế thí nghiệm, `results/` và phần phân tích trong README này.
 
 ## Đóng góp dữ liệu
 
@@ -178,7 +232,7 @@ Colab. **Không** push `data_dir/` hay `outputs/` (dễ conflict / quá nặng).
 
 ## Lưu ý
 
-- Model chưa được train đầy đủ trong báo cáo cài đặt ban đầu (chỉ smoke test) — xem
-  [SETUP_REPORT.md](phobert_ner/SETUP_REPORT.md) mục 6–8 để biết những gì đã/ chưa kiểm chứng.
+- [SETUP_REPORT.md](phobert_ner/SETUP_REPORT.md) là bản ghi lại lúc cài đặt ban đầu (28/10/2026, mới smoke test, số liệu dữ liệu cũ);
+  số liệu hiện hành là ở README này.
 - Dữ liệu là câu viết tay + sinh tự động, không phải câu thật của người tìm việc.
 - Chuẩn hoá dấu theo kiểu cũ (`hòa → hoà`) để khớp `normalize_text` của repo lúc suy luận.
